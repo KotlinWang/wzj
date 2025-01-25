@@ -19,7 +19,7 @@ redirect_from:
 
 I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), Wuhan University. My advisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
 
-I focus on developing advanced deep learning technologies for remote sensing analysis. My research interests include computer vision, semantic segmentation, 3D object detection and disaster prediction. I have published in RSE, ISPRS, TIP, etc.
+I focus on developing advanced deep learning technologies for remote sensing analysis. My research interests include **computer vision, semantic segmentation, 3D object detection and disaster prediction**. I have published in RSE, ISPRS, TIP, etc.
 
 
 # 🔥 News
