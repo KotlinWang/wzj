@@ -36,7 +36,7 @@ I focus on developing advanced deep learning technologies for remote sensing ana
 
 [**Code & Data**](https://github.com/KotlinWang/DIEF) 
 
-**Zijie Wang**, Jizheng Yi, Jing Yu, Ronglong Hu, Xiangji Peng, Aibin Chen, Xuhui Shen
+**Zijie Wang**, Jizheng Yi, Jing Yuan, Ronglong Hu, Xiangji Peng, Aibin Chen, Xuhui Shen
 </div>
 </div>
 
@@ -45,11 +45,11 @@ I focus on developing advanced deep learning technologies for remote sensing ana
 
 [Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html)
 
-Jing Yu, **Zijie Wang**, Dehe Yang, Qiao Wang, Zeren Zima, Ying Han, Le Zhou, Xuhui Shen, Qihang Guo
+Jing Yuan, **Zijie Wang**, Dehe Yang, Qiao Wang, Zeren Zima, Ying Han, Le Zhou, Xuhui Shen, Qihang Guo
 </div>
 </div>
 
-- [Automatic recognition algorithm of the lightning whistler waves by using speech processing technology](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365), Jing Yu, **Zijie Wang**, ... **CJG**
+- [Automatic recognition algorithm of the lightning whistler waves by using speech processing technology](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365), Jing Yuan, Zijie Wang, ..., **CJG**
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
