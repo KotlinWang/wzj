@@ -40,7 +40,7 @@ I focus on developing advanced deep learning technologies for remote sensing ana
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EGU21</div><img src='images/rse.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EGU21</div><img src='images/egu21.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html)
@@ -49,7 +49,7 @@ Jing Yu, **Zijie Wang**, Dehe Yang, Qiao Wang, Zeren Zima, Ying Han, Le Zhou, Xu
 </div>
 </div>
 
-- [Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html), A, B, C, **CVPR 2020**
+- [Automatic recognition algorithm of the lightning whistler waves by using speech processing technology](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365), Jing Yu, **Zijie Wang**, ... **CJG**
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
