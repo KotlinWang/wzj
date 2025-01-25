@@ -26,6 +26,7 @@ I focus on developing advanced deep learning technologies for remote sensing ana
 - *2025.02*: &nbsp;🎉🎉 One papers have accepted by ISPRS P&RS (IF=10.6).
 - *2025.01*: &nbsp;🎉🎉 I was successfully admitted to Wuhan University for a PhD.
 - *2024.02*: &nbsp;🎉🎉 One papers have accepted by RSE (IF=13.5).
+- *2022.04*: &nbsp;🎉🎉 A method for sound recognition of whistles is reported on EGU21.
 
 # 📝 Publications 
 
