@@ -30,7 +30,7 @@ I focus on developing advanced deep learning technologies for remote sensing ana
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSE</div><img src='images/rse.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPRS</div><img src='images/urbanssf.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Accurate semantic segmentation of very high-resolution remote sensing images considering feature state sequences: From benchmark datasets to urban applications](https://www.sciencedirect.com/science/article/abs/pii/S0924271625000176)
