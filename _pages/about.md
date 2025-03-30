@@ -72,7 +72,7 @@ Jing Yuan, **Zijie Wang**, Dehe Yang, Qiao Wang, Zeren Zima, Ying Han, Le Zhou, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CJG</div><img src='images/egu21.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CJG</div><img src='images/cjg.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Automatic recognition algorithm of the lightning whistler waves by using speech processing technology](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365)
