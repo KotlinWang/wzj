@@ -25,11 +25,21 @@ I focus on developing advanced deep learning technologies for remote sensing ana
 # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 One papers have accepted by TIP (IF=10.8).
 - *2025.02*: &nbsp;🎉🎉 One papers have accepted by ISPRS P&RS (IF=10.6).
-- *2025.01*: &nbsp;🎉🎉 I was successfully admitted to Wuhan University for a PhD.
 - *2024.02*: &nbsp;🎉🎉 One papers have accepted by RSE (IF=13.5).
 - *2022.04*: &nbsp;🎉🎉 A method for sound recognition of whistles is reported on EGU21.
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP</div><img src='images/movis.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MoVis: When 3D Object Detection is Like Human Monocular Vision](https://ieeexplore.ieee.org/document/10916602/keywords#keywords)
+
+[**Code and Data**](https://github.com/KotlinWang/MoVis) 
+
+**Zijie Wang**, Jizheng Yi, Aibin Chen, Guangjie Han
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPRS</div><img src='images/urbanssf.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
