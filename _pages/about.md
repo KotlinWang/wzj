@@ -17,9 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), Wuhan University. My advisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
+Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), Wuhan University. My advisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
 
-I focus on developing advanced deep learning technologies for remote sensing analysis. My research interests include **computer vision, semantic segmentation, 3D object detection and disaster prediction**. I have published in RSE, ISPRS, TIP, etc.
+I focus on developing advanced deep learning technologies for remote sensing analysis. My research interests include **Remote Sensing Disaster Application and Deep Learning Algorithm**. I have published in RSE, ISPRS, TIP, etc.
+
+<div class="highlight-blocks">
+  <div class="highlight-block">
+    <h3>🔬 AI Researcher</h3>
+    <ul>
+      <li>Research focus on LLMs and NLP</li>
+      <li>Multiple internships at top institutions</li>
+      <li>Publication at AAAI 2025</li>
+    </ul>
+  </div>
 
 
 # 🔥 News
