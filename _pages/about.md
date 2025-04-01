@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -17,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), Wuhan University. I focus on developing advanced deep learning technologies for remote sensing analysis. My advisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
+Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), **Wuhan University**. I focus on developing advanced deep learning technologies for disaster remote sensing interpretation. My advisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
 
 <div class="highlight-blocks">
   <div class="highlight-block">
