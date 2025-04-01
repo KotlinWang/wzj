@@ -87,7 +87,7 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSE</div><img src='images/rse.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Lightning-generated Whistlers recognition for accurate disaster monitoring in China and its surrounding areas based on a homologous dual-feature information enhancement framework](https://www.sciencedirect.com/science/article/abs/pii/S0034425724000324)
+Lightning-generated Whistlers recognition for accurate disaster monitoring in China and its surrounding areas based on a homologous dual-feature information enhancement framework
 
 - **Zijie Wang**, Jizheng Yi, Jing Yuan, Ronglong Hu, Xiangji Peng, Aibin Chen, Xuhui Shen
 - *Remote Sensing of Environment*, 2024
