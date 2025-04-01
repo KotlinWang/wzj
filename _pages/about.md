@@ -32,9 +32,9 @@ Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key L
   <div class="highlight-block">
     <h3>✍️ Published journal</h3>
     <ul>
-      <li>Remote Sensingi of Environment (RSE)</li>
-      <li>IEEE Transactions on Image Processing (TIP)</li>
-      <li>ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)</li>
+      <li>Remote Sensingi of Environment</li>
+      <li>IEEE Transactions on Image Processing</li>
+      <li>ISPRS Journal of Photogrammetry and Remote Sensing</li>
     </ul>
   </div>
   
