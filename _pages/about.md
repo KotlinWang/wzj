@@ -51,9 +51,9 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 </div>
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 One papers have accepted by TIP (IF=10.8).
-- *2025.02*: &nbsp;🎉🎉 One papers have accepted by ISPRS P&RS (IF=10.6).
-- *2024.02*: &nbsp;🎉🎉 One papers have accepted by RSE (IF=13.5).
+- *2025.02*: &nbsp;🎉🎉 Our paper has been accepted by TIP (IF=10.8).
+- *2025.02*: &nbsp;🎉🎉 Our paper has been accepted by ISPRS P&RS (IF=10.6).
+- *2024.02*: &nbsp;🎉🎉 Our paper has been accepted by RSE (IF=13.5).
 - *2022.04*: &nbsp;🎉🎉 A method for sound recognition of whistles is reported on EGU21.
 
 # 📝 Publications 
