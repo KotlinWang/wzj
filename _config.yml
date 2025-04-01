@@ -7,7 +7,10 @@
 
 # Site Settings
 title                    : "Zijie Wang (王子杰)"
-description              : "PHD student in Remote Sensing"
+description              : "PhD student in Remote Sensing"
+name                     : "Zijie Wang"
+description              : "Personal Website"
+url                     : "https://kotlinwang.github.io/wzj/"
 repository               : "https://kotlinwang.github.io/wzj/"
 google_scholar_stats_use_cdn : true
 
