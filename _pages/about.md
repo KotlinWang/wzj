@@ -34,7 +34,7 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
   <div class="highlight-block">
     <h3>✍️ Published journal</h3>
     <ul>
-      <li>Remote Sensingi of Environment</li>
+      <li>Remote Sensing of Environment</li>
       <li>IEEE Transactions on Image Processing</li>
       <li>ISPRS Journal of Photogrammetry and Remote Sensing</li>
     </ul>
