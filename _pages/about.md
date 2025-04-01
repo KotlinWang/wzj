@@ -17,19 +17,37 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), Wuhan University. My advisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
-
-I focus on developing advanced deep learning technologies for remote sensing analysis. My research interests include **Remote Sensing Disaster Application and Deep Learning Algorithm**. I have published in RSE, ISPRS, TIP, etc.
+Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), Wuhan University. I focus on developing advanced deep learning technologies for remote sensing analysis. My advisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
 
 <div class="highlight-blocks">
   <div class="highlight-block">
-    <h3>🔬 AI Researcher</h3>
+    <h3>🔬 Research focus</h3>
     <ul>
-      <li>Research focus on LLMs and NLP</li>
-      <li>Multiple internships at top institutions</li>
-      <li>Publication at AAAI 2025</li>
+      <li>Remote Sensing Disaster Application</li>
+      <li>Deep Learning Algorithm</li>
+      <li>...</li>
     </ul>
   </div>
+  
+  <div class="highlight-block">
+    <h3>✍️ Published journal</h3>
+    <ul>
+      <li>Remote Sensingi of Environment (RSE)</li>
+      <li>IEEE Transactions on Image Processing (TIP)</li>
+      <li>ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)</li>
+    </ul>
+  </div>
+  
+  <div class="highlight-block">
+    <h3>🌎 Life Explorer</h3>
+    <ul>
+      <li>Visited 2 countries worldwide</li>
+      <li>Traveled to 15 provinces in China</li>
+      <li>Rich experience in social work & activities</li>
+    </ul>
+  </div>
+</div>
+
 
 
 # 🔥 News
