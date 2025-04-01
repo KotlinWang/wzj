@@ -61,4 +61,42 @@
   }
 }
 
+.greedy-nav {
+  a {
+    display: block;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    color: $masthead-link-color;
+    text-decoration: none;
 
+    &:after {
+      display: none;
+    }
+
+    &:hover {
+      color: $masthead-link-color-hover;
+    }
+  }
+
+  .visible-links {
+    a {
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        background: $success-color;
+        width: 100%;
+        transition: $global-transition;
+        transform: scaleX(0);
+      }
+
+      &:hover:before {
+        transform: scaleX(1);
+      }
+    }
+  }
+}
