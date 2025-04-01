@@ -62,7 +62,7 @@ Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key L
 **MoVis: When 3D Object Detection is Like Human Monocular Vision**
 
 - **Zijie Wang**, Jizheng Yi, Aibin Chen, Guangjie Han
-- [|**Code**|](https://github.com/KotlinWang/MoVis) [|**Paper**|](https://ieeexplore.ieee.org/document/10916602/keywords#keywords)
+- [[**Code**]](https://github.com/KotlinWang/MoVis) [[**Paper**]](https://ieeexplore.ieee.org/document/10916602/keywords#keywords)
 </div>
 </div>
 
