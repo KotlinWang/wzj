@@ -48,8 +48,6 @@ Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key L
   </div>
 </div>
 
-
-
 # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 One papers have accepted by TIP (IF=10.8).
 - *2025.02*: &nbsp;🎉🎉 One papers have accepted by ISPRS P&RS (IF=10.6).
@@ -61,11 +59,10 @@ Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key L
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP</div><img src='images/movis.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MoVis: When 3D Object Detection is Like Human Monocular Vision](https://ieeexplore.ieee.org/document/10916602/keywords#keywords)
+**MoVis: When 3D Object Detection is Like Human Monocular Vision**
 
-[**Code and Data**](https://github.com/KotlinWang/MoVis) 
-
-**Zijie Wang**, Jizheng Yi, Aibin Chen, Guangjie Han
+- **Zijie Wang**, Jizheng Yi, Aibin Chen, Guangjie Han
+- [|**Code**|](https://github.com/KotlinWang/MoVis) [|**Paper**|](https://ieeexplore.ieee.org/document/10916602/keywords#keywords)
 </div>
 </div>
 
