@@ -3,18 +3,17 @@ layout: compress
 ---
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="{{ site.lang | default: 'en' }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
+    <div id="main" role="main" style="padding-bottom: 3em;">
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -28,6 +27,7 @@ layout: compress
     </div>
 
     {% include scripts.html %}
+    {% include footer.html %}
 
   </body>
 </html>
