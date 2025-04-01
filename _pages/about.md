@@ -64,7 +64,7 @@ Hi! My name is Zijie Wang. I am a Ph.D. student (2025 - now) in the [State Key L
 - **Zijie Wang**, Jizheng Yi, Aibin Chen, Guangjie Han
 - *IEEE Transactions on Image Processing*, 2025
 - [[**Code**]](https://github.com/KotlinWang/MoVis) [[**Paper**]](https://ieeexplore.ieee.org/document/10916602/keywords#keywords)
-- 
+
 </div>
 </div>
 
