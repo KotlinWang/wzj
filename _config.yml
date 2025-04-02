@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zijie Wang\n(王子杰)"
+title                    : "Zijie Wang (王子杰)"
 description              : "PhD student in Remote Sensing"
 name                     : "Zijie Wang"
 description              : "Personal Website"
@@ -24,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zijie Wang (王子杰)"
+  name             : "Zijie Wang\n(王子杰)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Wuhan University"
   location         : "Wuhan, China"
