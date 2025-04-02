@@ -21,7 +21,7 @@ redirect_from:
 
 # 👨‍🔬 About Me
 
-Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), **Wuhan University**. I focus on developing advanced deep learning technologies for disaster remote sensing interpretation. My advisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
+Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), **Wuhan University**. I focus on developing advanced deep learning technologies for disaster remote sensing interpretation. My supervisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
 
 <div class="highlight-blocks">
   <div class="highlight-block">
