@@ -121,7 +121,7 @@ Automatic recognition algorithm of the lightning whistler waves by using speech 
 # 🎖 Honors and Awards
 
 # 💬 Invited Talks
-- *2021.04*, Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite. EGU21.
+- *2021.04*, Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite. **EGU21**.
 
 # 📖 Educations
 - *2025.09 - now*, Doctor of photogrammetry and remote sensing, **Wuhan University**
