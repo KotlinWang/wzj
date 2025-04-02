@@ -125,5 +125,5 @@ Automatic recognition algorithm of the lightning whistler waves by using speech 
 
 # 📖 Educations
 - *2025.09 - now*, Doctor of Photogrammetry and Remote Sensing, **Wuhan University**
-- *2022.09 - 2025.06*, Master of Science in Computer technology, **Central South University of Forestry and Technology**
+- *2022.09 - 2025.06*, Master of Science in Computer Technology, **Central South University of Forestry and Technology**
 - *2018.09 - 2022.06*, Bachelor of Engineering in Computer Science and Technology, **University of Emergency Management**
