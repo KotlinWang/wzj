@@ -55,6 +55,7 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 # 🔥 News
 - *2025.02*: &nbsp;🎉🎉 Our paper has been accepted by TIP (IF=10.8).
 - *2025.02*: &nbsp;🎉🎉 Our paper has been accepted by ISPRS P&RS (IF=10.6).
+- *2024.10*: &nbsp;🎉🎉 I have won the 2024 National Scholarship for Graduate Student.
 - *2024.02*: &nbsp;🎉🎉 Our paper has been accepted by RSE (IF=13.5).
 - *2022.04*: &nbsp;🎉🎉 A method for sound recognition of whistles is reported on EGU21.
 
@@ -119,6 +120,7 @@ Automatic recognition algorithm of the lightning whistler waves by using speech 
 </div>
 
 # 🎖 Honors and Awards
+- *2024.10*, The 2024 National Scholarship for Graduate Student.
 
 # 💬 Invited Talks
 - *2021.04*, Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite. **EGU21**.
