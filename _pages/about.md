@@ -120,7 +120,7 @@ Automatic recognition algorithm of the lightning whistler waves by using speech 
 </div>
 
 # 🎖 Honors and Awards
-- *2024.10*, The 2024 National Scholarship for Graduate Student.
+- *2024.10*, **The 2024 National Scholarship for Graduate Student**.
 
 # 💬 Invited Talks
 - *2021.04*, Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite. **EGU21**.
