@@ -53,22 +53,24 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 </div>
 
 # 🔥 News
+- **`Feb. 13th, 2026`**: &nbsp;🎉🎉 Our [Review](https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/) has been accepted by *Journal of Remote Sensing*.
 - **`Mar. 06th, 2025`**: &nbsp;🎉🎉 Our [MoVis](https://ieeexplore.ieee.org/document/10916602/) has been accepted by TIP.
 - **`Jan. 31th, 2025`**: &nbsp;🎉🎉 Our [UrbanSSF](https://doi.org/10.1016/j.isprsjprs.2025.01.017) has been accepted by ISPRS P&RS.
 - **`Oct. 14th, 2024`**: &nbsp;🎉🎉 I have won the [2024 National Scholarship for Graduate Student](https://xsgzb.csuft.edu.cn/info/1131/1061.htm).
 - **`Feb. 08th, 2024`**: &nbsp;🎉🎉 Our [DIEF](https://doi.org/10.1016/j.rse.2024.114021) has been accepted by RSE.
-- **`Apr. 2022`**: &nbsp;🎉🎉 A method for sound recognition of whistles is reported on EGU21.
+- **`Mar. 10th, 2022`**: &nbsp;🎉🎉 Our [Paper](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365) has been accepted by *Chinese Journal of Geophysics*.
+- **`Mar. 04th, 2022`**: &nbsp;🎉🎉 A [Method](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html) for sound recognition of whistles has been reported on EGU21.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CJG</div><img src='images/cjg.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JRS</div><img src='images/jRS.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Automatic recognition algorithm of the lightning whistler waves by using speech processing technology
+A review of AI and remote sensing research: Current status and future prospects
 
-- Jing Yuan, **Zijie Wang**, ...
-- *Chinese Journal of Geophysics*, 2022
-- [[**Paper**]](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365)
+- Wei He, **Zijie Wang**, ...
+- *Journal of Remote Sensing*, 2022
+- [[**Paper**]](https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/)
 </div>
 </div>
 
