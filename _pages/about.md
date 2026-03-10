@@ -63,7 +63,7 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JRS</div><img src='images/jrs.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JRS</div><img src='images/jrs.jpg' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 A review of AI and remote sensing research: Current status and future prospects
