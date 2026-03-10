@@ -55,7 +55,7 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 # 🔥 News
 - **`Feb. 13th, 2026`**: &nbsp;🎉🎉 Our [Review](https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/) has been accepted by *Journal of Remote Sensing*.
 - **`Mar. 06th, 2025`**: &nbsp;🎉🎉 Our [MoVis](https://ieeexplore.ieee.org/document/10916602/) has been accepted by TIP.
-- **`Jan. 31th, 2025`**: &nbsp;🎉🎉 Our [UrbanSSF](https://doi.org/10.1016/j.isprsjprs.2025.01.017) has been accepted by ISPRS P&RS.
+- **`Jan. 31th, 2025`**: &nbsp;🎉🎉 Our [UrbanSSF](https://doi.org/10.1016/j.isprsjprs.2025.01.017) has been accepted by ISPRS.
 - **`Oct. 14th, 2024`**: &nbsp;🎉🎉 I have won the [2024 National Scholarship for Graduate Student](https://xsgzb.csuft.edu.cn/info/1131/1061.htm).
 - **`Feb. 08th, 2024`**: &nbsp;🎉🎉 Our [DIEF](https://doi.org/10.1016/j.rse.2024.114021) has been accepted by RSE.
 - **`Mar. 10th, 2022`**: &nbsp;🎉🎉 Our [Paper](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365) has been accepted by *Chinese Journal of Geophysics*.
