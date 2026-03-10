@@ -53,13 +53,24 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 </div>
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 Our paper has been accepted by TIP (IF=10.8).
-- *2025.02*: &nbsp;🎉🎉 Our paper has been accepted by ISPRS P&RS (IF=10.6).
+- *2025.02*: &nbsp;🎉🎉 Our [MoVis](https://ieeexplore.ieee.org/document/10916602/keywords#keywords) has been accepted by TIP.
+- *2025.02*: &nbsp;🎉🎉 Our paper has been accepted by ISPRS P&RS.
 - *2024.10*: &nbsp;🎉🎉 I have won the 2024 National Scholarship for Graduate Student.
-- *2024.02*: &nbsp;🎉🎉 Our paper has been accepted by RSE (IF=13.5).
+- *2024.02*: &nbsp;🎉🎉 Our paper has been accepted by RSE.
 - *2022.04*: &nbsp;🎉🎉 A method for sound recognition of whistles is reported on EGU21.
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CJG</div><img src='images/cjg.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Automatic recognition algorithm of the lightning whistler waves by using speech processing technology
+
+- Jing Yuan, **Zijie Wang**, ...
+- *Chinese Journal of Geophysics*, 2022
+- [[**Paper**]](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP</div><img src='images/movis.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
