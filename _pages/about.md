@@ -53,11 +53,11 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 </div>
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 Our [MoVis](https://ieeexplore.ieee.org/document/10916602/keywords#keywords) has been accepted by TIP.
-- *2025.02*: &nbsp;🎉🎉 Our paper has been accepted by ISPRS P&RS.
-- *2024.10*: &nbsp;🎉🎉 I have won the 2024 National Scholarship for Graduate Student.
-- *2024.02*: &nbsp;🎉🎉 Our paper has been accepted by RSE.
-- *2022.04*: &nbsp;🎉🎉 A method for sound recognition of whistles is reported on EGU21.
+- **`Mar. 06th, 2025`**: &nbsp;🎉🎉 Our [MoVis](https://ieeexplore.ieee.org/document/10916602/) has been accepted by TIP.
+- **`Jan. 31th, 2025`**: &nbsp;🎉🎉 Our [UrbanSSF](https://doi.org/10.1016/j.isprsjprs.2025.01.017) has been accepted by ISPRS P&RS.
+- **`Oct. 14th, 2024`**: &nbsp;🎉🎉 I have won the [2024 National Scholarship for Graduate Student](https://xsgzb.csuft.edu.cn/info/1131/1061.htm).
+- **`Feb. 08th, 2024`**: &nbsp;🎉🎉 Our [DIEF](https://doi.org/10.1016/j.rse.2024.114021) has been accepted by RSE.
+- **`Apr. 2022`**: &nbsp;🎉🎉 A method for sound recognition of whistles is reported on EGU21.
 
 # 📝 Publications 
 
@@ -79,7 +79,7 @@ Automatic recognition algorithm of the lightning whistler waves by using speech 
 
 - **Zijie Wang**, Jizheng Yi, Aibin Chen, Guangjie Han
 - *IEEE Transactions on Image Processing*, 2025
-- [[**Code**]](https://github.com/KotlinWang/MoVis) [[**Paper**]](https://ieeexplore.ieee.org/document/10916602/keywords#keywords)
+- [[**Code**]](https://github.com/KotlinWang/MoVis) [[**Paper**]](https://ieeexplore.ieee.org/document/10916602/)
 
 </div>
 </div>
@@ -91,7 +91,7 @@ Automatic recognition algorithm of the lightning whistler waves by using speech 
 
 - **Zijie Wang**, Jizheng Yi, Aibin Chen, Lijiang Chen, Hui Lin, Kai Xu
 - *ISPRS Journal of Photogrammetry and Remote Sensing*, 2025
-- [[**Code**]](https://github.com/KotlinWang/UrbanSSF) [[**Paper**]](https://www.sciencedirect.com/science/article/abs/pii/S0924271625000176)
+- [[**Code**]](https://github.com/KotlinWang/UrbanSSF) [[**Paper**]](https://doi.org/10.1016/j.isprsjprs.2025.01.017)
 
 </div>
 </div>
@@ -103,7 +103,7 @@ Lightning-generated Whistlers recognition for accurate disaster monitoring in Ch
 
 - **Zijie Wang**, Jizheng Yi, Jing Yuan, Ronglong Hu, Xiangji Peng, Aibin Chen, Xuhui Shen
 - *Remote Sensing of Environment*, 2024
-- [[**Code**]](https://github.com/KotlinWang/DIEF) [[**Paper**]](https://www.sciencedirect.com/science/article/abs/pii/S0034425724000324)
+- [[**Code**]](https://github.com/KotlinWang/DIEF) [[**Paper**]](https://doi.org/10.1016/j.rse.2024.114021)
 
 </div>
 </div>
