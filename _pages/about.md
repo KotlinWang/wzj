@@ -59,7 +59,7 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 - **`Oct. 14th, 2024`**: &nbsp;🎉🎉 I have won the [2024 National Scholarship for Graduate Student](https://xsgzb.csuft.edu.cn/info/1131/1061.htm).
 - **`Feb. 08th, 2024`**: &nbsp;🎉🎉 Our [DIEF](https://doi.org/10.1016/j.rse.2024.114021) has been accepted by RSE.
 - **`Mar. 10th, 2022`**: &nbsp;🎉🎉 Our [Paper](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365) has been accepted by *Chinese Journal of Geophysics*.
-- **`Mar. 04th, 2022`**: &nbsp;🎉🎉 A [Method](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html) for sound recognition of whistles has been reported on EGU21.
+- **`Mar. 04th, 2021`**: &nbsp;🎉🎉 A [Method](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html) for sound recognition of whistles has been reported on EGU21.
 
 # 📝 Publications 
 
