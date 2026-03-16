@@ -69,7 +69,7 @@ Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State K
 A review of AI and remote sensing research: Current status and future prospects
 
 - Wei He, **Zijie Wang**, ...
-- *Journal of Remote Sensing*, 2022
+- *Journal of Remote Sensing*, 2026
 - [[**Paper**]](https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/)
 </div>
 </div>
