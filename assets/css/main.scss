@@ -384,7 +384,6 @@ h1:before, .anchor:before {
 
 .profile-hero__inner {
     position: relative;
-    z-index: 3;
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
@@ -404,15 +403,15 @@ h1:before, .anchor:before {
     color: var(--mimo-ink);
     font-size: 4.4rem;
     font-weight: 900;
-    line-height: 1;
+    line-height: 1.04;
 }
 
 .profile-hero__summary {
     max-width: 56rem;
-    margin: 1.85rem 0 0;
+    margin: 2.2rem 0 0;
     color: var(--mimo-ink);
     font-size: 1.2rem;
-    line-height: 1.72;
+    line-height: 1.78;
     word-spacing: 0.08em;
 
     a {
@@ -479,7 +478,7 @@ h1:before, .anchor:before {
 .profile-hero__cards {
     position: relative;
     margin-top: 3.4rem;
-    z-index: 3;
+    z-index: 6;
 }
 
 .profile-hero + .anchor + .mimo-section {

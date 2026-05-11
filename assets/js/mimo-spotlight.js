@@ -58,25 +58,22 @@
   var trailY = 0;
   var spotlightSize = 0;
   var maskRect = null;
+  var cardsRect = null;
   var hasPointer = false;
   var animationFrame = null;
   var revealName = revealLayer.querySelector(".profile-hero__cn-name");
 
-  var isInsideCards = function(target) {
-    if (!heroCards || !target) {
-      return false;
-    }
-
-    if (target === heroCards) {
-      return true;
-    }
-
-    return target.closest && target.closest(".profile-hero__cards") === heroCards;
-  };
-
   var hideSpotlight = function() {
     mask.classList.remove("is-visible");
     hasPointer = false;
+  };
+
+  var isInsideCardsRect = function(event) {
+    return cardsRect &&
+      event.clientX >= cardsRect.left &&
+      event.clientX <= cardsRect.right &&
+      event.clientY >= cardsRect.top &&
+      event.clientY <= cardsRect.bottom;
   };
 
   var measure = function() {
@@ -86,15 +83,13 @@
     var patternRect = heroPattern.getBoundingClientRect();
     var patternStyle = window.getComputedStyle(heroPattern);
     var titleStyle = window.getComputedStyle(heroTitle);
-    var cardsRect = heroCards ? heroCards.getBoundingClientRect() : null;
-    var spotlightAreaHeight = cardsRect ? cardsRect.top - heroRect.top : heroRect.height;
     var preferredSize = Math.min(heroRect.width * 0.25, titleRect.height * 3.25, window.innerHeight * 0.58);
     var minSize = Math.min(280, heroRect.width * 0.42);
     var maxSize = Math.min(500, Math.max(320, window.innerHeight * 0.62));
     var responsiveSize = Math.round(Math.max(minSize, Math.min(preferredSize, maxSize)));
 
     mask.style.top = "0";
-    mask.style.height = Math.max(0, spotlightAreaHeight) + "px";
+    mask.style.height = heroRect.height + "px";
     mask.style.left = "0";
     mask.style.width = heroRect.width + "px";
     hero.style.setProperty("--mimo-spotlight-size", responsiveSize + "px");
@@ -108,6 +103,7 @@
     var innerTop = innerRect.top - maskRect.top;
     var patternLeft = patternRect.left - maskRect.left;
     var patternTop = patternRect.top - maskRect.top;
+    cardsRect = heroCards ? heroCards.getBoundingClientRect() : null;
 
     spotlightSize = responsiveSize;
     stage.style.width = maskRect.width + "px";
@@ -158,13 +154,13 @@
   };
 
   var updateTarget = function(event) {
-    if (isInsideCards(event.target)) {
-      hideSpotlight();
-      return;
-    }
-
     if (!maskRect) {
       measure();
+    }
+
+    if (isInsideCardsRect(event)) {
+      hideSpotlight();
+      return;
     }
 
     targetX = event.clientX - maskRect.left;
@@ -201,17 +197,4 @@
   window.addEventListener("scroll", function() {
     hideSpotlight();
   }, { passive: true });
-
-  if (heroCards) {
-    heroCards.addEventListener("pointerenter", hideSpotlight, true);
-    heroCards.addEventListener("pointerover", hideSpotlight, true);
-    heroCards.addEventListener("pointermove", function(event) {
-      hideSpotlight();
-      event.stopPropagation();
-    }, true);
-    heroCards.addEventListener("pointerdown", function(event) {
-      hideSpotlight();
-      event.stopPropagation();
-    }, true);
-  }
 }());
