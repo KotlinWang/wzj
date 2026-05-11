@@ -249,13 +249,13 @@ h1:before, .anchor:before {
         left: 0;
         z-index: 4;
         display: block;
-        width: 31rem;
-        height: 31rem;
+        width: clamp(22rem, 30vw, 38rem);
+        height: clamp(22rem, 30vw, 38rem);
         background: var(--mimo-ink);
         border-radius: 50%;
         opacity: 0;
         pointer-events: none;
-        transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(0, 0, 0);
         transition: opacity 0.22s ease;
         will-change: transform;
         overflow: hidden;
@@ -265,27 +265,31 @@ h1:before, .anchor:before {
         opacity: 1;
     }
 
-    .mimo-spotlight__pattern {
+    .mimo-spotlight__stage {
         position: absolute;
-        inset: -2rem;
-        color: rgba(255, 255, 255, 0.09);
-        font-size: 3.1rem;
-        font-weight: 900;
-        line-height: 1.28;
-        text-transform: uppercase;
-        word-spacing: 2.5rem;
+        top: 0;
+        left: 0;
+        will-change: transform;
     }
 
-    .mimo-spotlight__word {
+    .mimo-spotlight__pattern {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        color: #ffffff;
-        font-size: 4.2rem;
+        top: 4.5rem;
+        left: -0.4rem;
+        width: max(120rem, 180vw);
+        color: rgba(255, 255, 255, 0.08);
+        font-size: 3.5rem;
         font-weight: 900;
-        line-height: 0.95;
-        text-align: center;
-        transform: translate(-50%, -50%);
+        line-height: 1.25;
+        text-transform: uppercase;
+        word-spacing: 2.1rem;
+        white-space: normal;
+    }
+
+    .mimo-spotlight__title {
+        position: absolute;
+        color: #ffffff;
+        font-weight: 900;
         white-space: nowrap;
     }
 }
@@ -305,10 +309,11 @@ h1:before, .anchor:before {
     top: 4.5rem;
     left: -0.4rem;
     color: rgba(17, 17, 17, 0.045);
-    font-size: 5.2rem;
+    font-size: 3.5rem;
     font-weight: 900;
-    line-height: 0.82;
-    text-transform: lowercase;
+    line-height: 1.25;
+    text-transform: uppercase;
+    word-spacing: 2.1rem;
     white-space: nowrap;
     pointer-events: none;
     user-select: none;
@@ -635,7 +640,7 @@ h1:before, .anchor:before {
     }
 
     .profile-hero__pattern {
-        font-size: 8rem;
+        font-size: 4.2rem;
     }
 
     .profile-hero__meta {
@@ -711,7 +716,7 @@ h1:before, .anchor:before {
 
 @media (min-width: 1200px) {
     .profile-hero__pattern {
-        font-size: 12rem;
+        font-size: 5.4rem;
     }
 
     .profile-hero h1 {

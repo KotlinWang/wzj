@@ -13,7 +13,7 @@ redirect_from:
   <span class="anchor" id="about-me"></span>
 
   <section class="profile-hero" aria-labelledby="home-title">
-    <div class="profile-hero__pattern" aria-hidden="true">hello<br>hello<br>hello</div>
+    <div class="profile-hero__pattern" aria-hidden="true">ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG<br>ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG<br>ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG<br>ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG<br>ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG ZIJIE WANG</div>
     <div class="profile-hero__inner">
       <p class="profile-hero__eyebrow">Remote Sensing / Deep Learning / Disaster Interpretation</p>
       <h1 id="home-title">Zijie Wang</h1>
