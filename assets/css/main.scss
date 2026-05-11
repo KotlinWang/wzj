@@ -238,45 +238,55 @@ h1:before, .anchor:before {
     background: var(--mimo-bg);
 }
 
-.mimo-cursor-dot {
+.mimo-spotlight {
     display: none;
 }
 
 @media (pointer: fine) {
-    .mimo-profile-home {
-        cursor: none;
-
-        a,
-        button {
-            cursor: none;
-        }
-    }
-
-    .mimo-cursor-dot {
-        position: fixed;
+    .mimo-spotlight {
+        position: absolute;
         top: 0;
         left: 0;
-        z-index: 10000;
+        z-index: 4;
         display: block;
-        width: 16px;
-        height: 16px;
+        width: 31rem;
+        height: 31rem;
         background: var(--mimo-ink);
         border-radius: 50%;
         opacity: 0;
         pointer-events: none;
         transform: translate3d(-50%, -50%, 0);
-        transition: opacity 0.18s ease, width 0.18s ease, height 0.18s ease, background-color 0.18s ease;
+        transition: opacity 0.22s ease;
         will-change: transform;
+        overflow: hidden;
     }
 
-    .mimo-cursor-dot.is-visible {
+    .mimo-spotlight.is-visible {
         opacity: 1;
     }
 
-    .mimo-cursor-dot.is-hovering {
-        width: 26px;
-        height: 26px;
-        background: var(--mimo-accent);
+    .mimo-spotlight__pattern {
+        position: absolute;
+        inset: -2rem;
+        color: rgba(255, 255, 255, 0.09);
+        font-size: 3.1rem;
+        font-weight: 900;
+        line-height: 1.28;
+        text-transform: uppercase;
+        word-spacing: 2.5rem;
+    }
+
+    .mimo-spotlight__word {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #ffffff;
+        font-size: 4.2rem;
+        font-weight: 900;
+        line-height: 0.95;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
     }
 }
 
@@ -306,7 +316,7 @@ h1:before, .anchor:before {
 
 .profile-hero__inner {
     position: relative;
-    z-index: 1;
+    z-index: 3;
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
