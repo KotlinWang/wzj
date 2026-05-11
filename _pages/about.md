@@ -2,143 +2,239 @@
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
-redirect_from: 
+author_profile: false
+body_class: mimo-profile-home
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<div class="mimo-home">
+  <span class="anchor" id="about-me"></span>
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+  <section class="profile-hero" aria-labelledby="home-title">
+    <div class="profile-hero__pattern" aria-hidden="true">hello<br>hello<br>hello</div>
+    <div class="profile-hero__inner">
+      <p class="profile-hero__eyebrow">Remote Sensing / Deep Learning / Disaster Interpretation</p>
+      <h1 id="home-title">Zijie Wang</h1>
+      <p class="profile-hero__summary">
+        Ph.D. student at LIESMARS, Wuhan University, working on deep learning methods for disaster remote sensing interpretation.
+      </p>
+      <div class="profile-hero__actions">
+        <a href="#publications" target="_self">View Publications <span aria-hidden="true">&rarr;</span></a>
+        <a href="mailto:Lebron.wang26@gmail.com">Contact <span aria-hidden="true">&rarr;</span></a>
+      </div>
+      <dl class="profile-hero__meta">
+        <div>
+          <dt>2025-now</dt>
+          <dd>Ph.D. Student</dd>
+        </div>
+        <div>
+          <dt>Wuhan</dt>
+          <dd>Wuhan University</dd>
+        </div>
+        <div>
+          <dt>Focus</dt>
+          <dd>Remote Sensing AI</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
 
-<span class='anchor' id='about-me'></span>
+  <section class="mimo-section focus-section" aria-labelledby="focus-title">
+    <div class="section-heading-block">
+      <span>01</span>
+      <h2 id="focus-title">About Me</h2>
+    </div>
+    <div class="section-body section-body--intro">
+      <p>
+        Hi, my name is <strong>Zijie Wang</strong>. I am a Ph.D. student in the
+        <a href="https://liesmars.whu.edu.cn/">State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)</a>,
+        <strong>Wuhan University</strong>. My supervisor is Prof.
+        <a href="https://prowdiy.github.io/weihe.github.io/">Wei He</a>.
+      </p>
+      <div class="focus-grid">
+        <article>
+          <span>Research Focus</span>
+          <h3>Disaster remote sensing</h3>
+          <p>Remote sensing disaster application and interpretation with modern AI systems.</p>
+        </article>
+        <article>
+          <span>Methods</span>
+          <h3>Deep learning algorithms</h3>
+          <p>Representation learning, segmentation, detection, and multimodal perception.</p>
+        </article>
+        <article>
+          <span>Explorer</span>
+          <h3>Academic life</h3>
+          <p>Published in leading journals and traveled across 15 provinces in China.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-# 👨‍🔬 About Me
+  <span class="anchor" id="news"></span>
+  <section class="mimo-section" aria-labelledby="news-title">
+    <div class="section-heading-block">
+      <span>02</span>
+      <h2 id="news-title">News</h2>
+    </div>
+    <ol class="news-list">
+      <li>
+        <time>Feb. 13, 2026</time>
+        <a href="https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/">Our Review has been accepted by <em>Journal of Remote Sensing</em>.</a>
+      </li>
+      <li>
+        <time>Mar. 06, 2025</time>
+        <a href="https://ieeexplore.ieee.org/document/10916602/">Our MoVis paper has been accepted by <em>IEEE Transactions on Image Processing</em>.</a>
+      </li>
+      <li>
+        <time>Jan. 31, 2025</time>
+        <a href="https://doi.org/10.1016/j.isprsjprs.2025.01.017">Our UrbanSSF paper has been accepted by <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>.</a>
+      </li>
+      <li>
+        <time>Oct. 14, 2024</time>
+        <a href="https://xsgzb.csuft.edu.cn/info/1131/1061.htm">I received the 2024 National Scholarship for Graduate Student.</a>
+      </li>
+      <li>
+        <time>Feb. 08, 2024</time>
+        <a href="https://doi.org/10.1016/j.rse.2024.114021">Our DIEF paper has been accepted by <em>Remote Sensing of Environment</em>.</a>
+      </li>
+      <li>
+        <time>Mar. 10, 2022</time>
+        <a href="http://en.dzkx.org/article/doi/10.6038/cjg2022P0365">Our paper has been accepted by <em>Chinese Journal of Geophysics</em>.</a>
+      </li>
+      <li>
+        <time>Mar. 04, 2021</time>
+        <a href="https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html">A method for sound recognition of whistles was reported at EGU21.</a>
+      </li>
+    </ol>
+  </section>
 
-Hi! My name is **Zijie Wang**. I am a Ph.D. student (2025 - now) in the [State Key Laboratory of information Engineering in Surveying, Mapping and Remote Sensing (LIESMARS)](https://liesmars.whu.edu.cn/), **Wuhan University**. I focus on developing advanced deep learning technologies for disaster remote sensing interpretation. My supervisor is Prof. [Wei He](https://prowdiy.github.io/weihe.github.io/).
+  <span class="anchor" id="publications"></span>
+  <section class="mimo-section publications-section" aria-labelledby="publications-title">
+    <div class="section-heading-block">
+      <span>03</span>
+      <h2 id="publications-title">Publications</h2>
+    </div>
 
-<div class="highlight-blocks">
-  <div class="highlight-block">
-    <h3>🔬 Research focus</h3>
-    <ul>
-      <li>Remote Sensing Disaster Application</li>
-      <li>Deep Learning Algorithm</li>
-      <li>...</li>
-    </ul>
-  </div>
-  
-  <div class="highlight-block">
-    <h3>✍️ Published journal</h3>
-    <ul>
-      <li>Remote Sensing of Environment</li>
-      <li>IEEE Transactions on Image Processing</li>
-      <li>ISPRS Journal of Photogrammetry and Remote Sensing</li>
-    </ul>
-  </div>
-  
-  <div class="highlight-block">
-    <h3>🌎 Life Explorer</h3>
-    <ul>
-      <li>Visited 2 countries worldwide</li>
-      <li>Traveled to 15 provinces in China</li>
-      <li>Rich experience in social work & activities</li>
-    </ul>
-  </div>
-</div>
+    <div class="paper-box"><div class="paper-box-image"><div><div class="badge">JRS</div><img src="images/jrs.jpg" alt="Journal of Remote Sensing paper preview"></div></div>
+    <div class="paper-box-text" markdown="1">
 
-# 🔥 News
-- **`Feb. 13th, 2026`**: &nbsp;🎉🎉 Our [Review](https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/) has been accepted by *Journal of Remote Sensing*.
-- **`Mar. 06th, 2025`**: &nbsp;🎉🎉 Our [MoVis](https://ieeexplore.ieee.org/document/10916602/) has been accepted by TIP.
-- **`Jan. 31th, 2025`**: &nbsp;🎉🎉 Our [UrbanSSF](https://doi.org/10.1016/j.isprsjprs.2025.01.017) has been accepted by ISPRS.
-- **`Oct. 14th, 2024`**: &nbsp;🎉🎉 I have won the [2024 National Scholarship for Graduate Student](https://xsgzb.csuft.edu.cn/info/1131/1061.htm).
-- **`Feb. 08th, 2024`**: &nbsp;🎉🎉 Our [DIEF](https://doi.org/10.1016/j.rse.2024.114021) has been accepted by RSE.
-- **`Mar. 10th, 2022`**: &nbsp;🎉🎉 Our [Paper](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365) has been accepted by *Chinese Journal of Geophysics*.
-- **`Mar. 04th, 2021`**: &nbsp;🎉🎉 A [Method](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html) for sound recognition of whistles has been reported on EGU21.
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JRS</div><img src='images/jrs.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-A review of AI and remote sensing research: Current status and future prospects
+### A review of AI and remote sensing research: Current status and future prospects
 
 - Wei He, **Zijie Wang**, ...
 - *Journal of Remote Sensing*, 2026
-- [[**Paper**]](https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/)
+- [[Paper]](https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/)
 </div>
-</div>
+    </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP</div><img src='images/movis.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+    <div class="paper-box"><div class="paper-box-image"><div><div class="badge">TIP</div><img src="images/movis.gif" alt="MoVis paper preview"></div></div>
+    <div class="paper-box-text" markdown="1">
 
-**MoVis: When 3D Object Detection is Like Human Monocular Vision**
+### MoVis: When 3D Object Detection is Like Human Monocular Vision
 
 - **Zijie Wang**, Jizheng Yi, Aibin Chen, Guangjie Han
 - *IEEE Transactions on Image Processing*, 2025
-- [[**Code**]](https://github.com/KotlinWang/MoVis) [[**Paper**]](https://ieeexplore.ieee.org/document/10916602/)
+- [[Code]](https://github.com/KotlinWang/MoVis) [[Paper]](https://ieeexplore.ieee.org/document/10916602/)
 
 </div>
-</div>
+    </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPRS</div><img src='images/urbanssf.gif' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+    <div class="paper-box"><div class="paper-box-image"><div><div class="badge">ISPRS</div><img src="images/urbanssf.gif" alt="UrbanSSF paper preview"></div></div>
+    <div class="paper-box-text" markdown="1">
 
-**Accurate semantic segmentation of very high-resolution remote sensing images considering feature state sequences: From benchmark datasets to urban applications**
+### Accurate semantic segmentation of very high-resolution remote sensing images considering feature state sequences: From benchmark datasets to urban applications
 
 - **Zijie Wang**, Jizheng Yi, Aibin Chen, Lijiang Chen, Hui Lin, Kai Xu
 - *ISPRS Journal of Photogrammetry and Remote Sensing*, 2025
-- [[**Code**]](https://github.com/KotlinWang/UrbanSSF) [[**Paper**]](https://doi.org/10.1016/j.isprsjprs.2025.01.017)
+- [[Code]](https://github.com/KotlinWang/UrbanSSF) [[Paper]](https://doi.org/10.1016/j.isprsjprs.2025.01.017)
 
 </div>
-</div>
+    </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSE</div><img src='images/rse.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+    <div class="paper-box"><div class="paper-box-image"><div><div class="badge">RSE</div><img src="images/rse.jpg" alt="Remote Sensing of Environment paper preview"></div></div>
+    <div class="paper-box-text" markdown="1">
 
-Lightning-generated Whistlers recognition for accurate disaster monitoring in China and its surrounding areas based on a homologous dual-feature information enhancement framework
+### Lightning-generated Whistlers recognition for accurate disaster monitoring in China and its surrounding areas based on a homologous dual-feature information enhancement framework
 
 - **Zijie Wang**, Jizheng Yi, Jing Yuan, Ronglong Hu, Xiangji Peng, Aibin Chen, Xuhui Shen
 - *Remote Sensing of Environment*, 2024
-- [[**Code**]](https://github.com/KotlinWang/DIEF) [[**Paper**]](https://doi.org/10.1016/j.rse.2024.114021)
+- [[Code]](https://github.com/KotlinWang/DIEF) [[Paper]](https://doi.org/10.1016/j.rse.2024.114021)
 
 </div>
-</div>
+    </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CJG</div><img src='images/cjg.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+    <div class="paper-box"><div class="paper-box-image"><div><div class="badge">CJG</div><img src="images/cjg.png" alt="Chinese Journal of Geophysics paper preview"></div></div>
+    <div class="paper-box-text" markdown="1">
 
-Automatic recognition algorithm of the lightning whistler waves by using speech processing technology
+### Automatic recognition algorithm of the lightning whistler waves by using speech processing technology
 
 - Jing Yuan, **Zijie Wang**, ...
 - *Chinese Journal of Geophysics*, 2022
-- [[**Paper**]](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365)
+- [[Paper]](http://en.dzkx.org/article/doi/10.6038/cjg2022P0365)
 </div>
-</div>
+    </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EGU21</div><img src='images/egu21.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+    <div class="paper-box"><div class="paper-box-image"><div><div class="badge">EGU21</div><img src="images/egu21.png" alt="EGU21 paper preview"></div></div>
+    <div class="paper-box-text" markdown="1">
 
-**Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite**
+### Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite
 
 - Jing Yuan, **Zijie Wang**, Dehe Yang, Qiao Wang, Zeren Zima, Ying Han, Le Zhou, Xuhui Shen, Qihang Guo
 - In *EGU21*, 2021
-- [[**Paper**]](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html)
+- [[Paper]](https://meetingorganizer.copernicus.org/EGU21/EGU21-11024.html)
 </div>
+    </div>
+  </section>
+
+  <span class="anchor" id="honors-and-awards"></span>
+  <section class="mimo-section mimo-section--split" aria-labelledby="honors-title">
+    <div class="section-heading-block">
+      <span>04</span>
+      <h2 id="honors-title">Honors and Awards</h2>
+    </div>
+    <div class="compact-list">
+      <article>
+        <time>2024.10</time>
+        <p>The 2024 National Scholarship for Graduate Student</p>
+      </article>
+    </div>
+  </section>
+
+  <span class="anchor" id="invited-talks"></span>
+  <section class="mimo-section mimo-section--split" aria-labelledby="talks-title">
+    <div class="section-heading-block">
+      <span>05</span>
+      <h2 id="talks-title">Invited Talks</h2>
+    </div>
+    <div class="compact-list">
+      <article>
+        <time>2021.04</time>
+        <p>Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite. <strong>EGU21</strong>.</p>
+      </article>
+    </div>
+  </section>
+
+  <span class="anchor" id="educations"></span>
+  <section class="mimo-section mimo-section--split education-section" aria-labelledby="education-title">
+    <div class="section-heading-block">
+      <span>06</span>
+      <h2 id="education-title">Educations</h2>
+    </div>
+    <div class="compact-list">
+      <article>
+        <time>2025.09-now</time>
+        <p>Doctor of Photogrammetry and Remote Sensing, <strong>Wuhan University</strong></p>
+      </article>
+      <article>
+        <time>2022.09-2025.06</time>
+        <p>Master of Science in Computer Technology, <strong>Central South University of Forestry and Technology</strong></p>
+      </article>
+      <article>
+        <time>2018.09-2022.06</time>
+        <p>Bachelor of Engineering in Computer Science and Technology, <strong>University of Emergency Management</strong></p>
+      </article>
+    </div>
+  </section>
 </div>
-
-# 🎖 Honors and Awards
-- *2024.10*, **The 2024 National Scholarship for Graduate Student**.
-
-# 💬 Invited Talks
-- *2021.04*, Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite. **EGU21**.
-
-# 📖 Educations
-- *2025.09 - now*, Doctor of Photogrammetry and Remote Sensing, **Wuhan University**
-- *2022.09 - 2025.06*, Master of Science in Computer Technology, **Central South University of Forestry and Technology**
-- *2018.09 - 2022.06*, Bachelor of Engineering in Computer Science and Technology, **University of Emergency Management**

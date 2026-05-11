@@ -11,7 +11,7 @@ description              : "PhD student in Remote Sensing"
 name                     : "Zijie Wang"
 description              : "Personal Website"
 url                     : "https://kotlinwang.github.io/wzj/"
-repository               : "https://kotlinwang.github.io/wzj/"
+repository               : "KotlinWang/wzj"
 google_scholar_stats_use_cdn : true
 
 # google analytics
