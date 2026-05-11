@@ -238,6 +238,48 @@ h1:before, .anchor:before {
     background: var(--mimo-bg);
 }
 
+.mimo-cursor-dot {
+    display: none;
+}
+
+@media (pointer: fine) {
+    .mimo-profile-home {
+        cursor: none;
+
+        a,
+        button {
+            cursor: none;
+        }
+    }
+
+    .mimo-cursor-dot {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+        display: block;
+        width: 16px;
+        height: 16px;
+        background: var(--mimo-ink);
+        border-radius: 50%;
+        opacity: 0;
+        pointer-events: none;
+        transform: translate3d(-50%, -50%, 0);
+        transition: opacity 0.18s ease, width 0.18s ease, height 0.18s ease, background-color 0.18s ease;
+        will-change: transform;
+    }
+
+    .mimo-cursor-dot.is-visible {
+        opacity: 1;
+    }
+
+    .mimo-cursor-dot.is-hovering {
+        width: 26px;
+        height: 26px;
+        background: var(--mimo-accent);
+    }
+}
+
 .profile-hero {
     position: relative;
     display: grid;
