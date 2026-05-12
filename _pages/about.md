@@ -23,6 +23,8 @@ redirect_from:
       <div class="profile-hero__actions">
         <a href="#publications" target="_self">View Publications <span aria-hidden="true">&rarr;</span></a>
         <a href="mailto:Lebron.wang26@gmail.com">Contact <span aria-hidden="true">&rarr;</span></a>
+        <a href="https://github.com/KotlinWang">GitHub <span aria-hidden="true">&rarr;</span></a>
+        <a href="https://scholar.google.com/citations?user=S7yHOaYAAAAJ">Google Scholar <span aria-hidden="true">&rarr;</span></a>
       </div>
       <div class="focus-grid profile-hero__cards">
         <article>

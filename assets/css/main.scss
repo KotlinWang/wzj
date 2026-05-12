@@ -171,7 +171,8 @@ h1:before, .anchor:before {
         }
 
         button,
-        .hidden-links {
+        .hidden-links,
+        .mobile-links {
             display: none !important;
         }
 
@@ -1027,8 +1028,116 @@ h1:before, .anchor:before {
 }
 
 @media (max-width: 767px) {
+    .mimo-profile-home .masthead {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+    }
+
     .mimo-profile-home .masthead__inner-wrap {
-        padding-right: 1.25rem;
+        padding: 0.8rem 1.25rem;
+    }
+
+    .mimo-profile-home .greedy-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 2.1rem;
+
+        button,
+        button.hidden {
+            position: relative;
+            right: auto;
+            display: inline-flex !important;
+            align-items: center;
+            justify-content: center;
+            width: 2.15rem;
+            height: 2.15rem;
+            padding: 0;
+            color: var(--mimo-ink);
+            background: transparent;
+            border: 1px solid var(--mimo-line);
+            border-radius: 999px;
+            outline: 0 !important;
+            box-shadow: none !important;
+            visibility: visible !important;
+        }
+
+        .navicon,
+        .navicon:before,
+        .navicon:after {
+            width: 1rem;
+            height: 2px;
+            background: var(--mimo-ink);
+        }
+
+        .navicon:before {
+            top: -6px;
+        }
+
+        .navicon:after {
+            bottom: -6px;
+        }
+
+        button.close {
+            color: #ffffff;
+            background: var(--mimo-ink);
+        }
+
+        button.close .navicon {
+            background: transparent;
+        }
+
+        button.close .navicon:before,
+        button.close .navicon:after {
+            top: 0;
+            bottom: auto;
+            background: #ffffff;
+        }
+
+        .visible-links {
+            display: flex;
+            align-items: center;
+            min-width: 0;
+        }
+
+        .mobile-links {
+            position: absolute;
+            top: calc(100% + 0.75rem);
+            left: 0;
+            right: 0;
+            z-index: 30;
+            padding: 0.75rem 0;
+            background: var(--mimo-bg);
+            border: 1px solid var(--mimo-line);
+            box-shadow: 0 1rem 2rem rgba(17, 17, 17, 0.12);
+        }
+
+        button.close ~ .mobile-links {
+            display: grid !important;
+        }
+
+        .mobile-links li {
+            margin: 0;
+            border-bottom: 1px solid var(--mimo-soft-line);
+        }
+
+        .mobile-links li:last-child {
+            border-bottom: 0;
+        }
+
+        .mobile-links a {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0.9rem 1rem;
+            font-size: 0.88rem;
+        }
+
+        .mobile-links a:after {
+            content: "->";
+            color: var(--mimo-accent);
+        }
     }
 
     .mimo-profile-home .masthead__menu-home-item {
@@ -1036,6 +1145,6 @@ h1:before, .anchor:before {
     }
 
     .mimo-profile-home .masthead__menu-item:not(.masthead__menu-home-item) {
-        display: none;
+        display: none !important;
     }
 }

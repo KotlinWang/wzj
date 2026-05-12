@@ -1,4 +1,29 @@
 (function() {
+  var nav = document.getElementById("site-nav");
+  var navButton = nav ? nav.querySelector("button") : null;
+  var mobileLinks = nav ? nav.querySelector(".mobile-links") : null;
+
+  if (!nav || !navButton || !mobileLinks) {
+    return;
+  }
+
+  navButton.setAttribute("aria-expanded", "false");
+
+  navButton.addEventListener("click", function() {
+    window.setTimeout(function() {
+      navButton.setAttribute("aria-expanded", navButton.classList.contains("close") ? "true" : "false");
+    }, 0);
+  });
+
+  mobileLinks.addEventListener("click", function(event) {
+    if (event.target.closest("a")) {
+      navButton.classList.remove("close");
+      navButton.setAttribute("aria-expanded", "false");
+    }
+  });
+}());
+
+(function() {
   var body = document.body;
   var hero = document.querySelector(".profile-hero");
   var heroInner = hero ? hero.querySelector(".profile-hero__inner") : null;
@@ -40,6 +65,8 @@
     '<div class="profile-hero__actions">',
     '<span>查看论文 <span aria-hidden="true">&rarr;</span></span>',
     '<span>联系我 <span aria-hidden="true">&rarr;</span></span>',
+    '<span>GitHub <span aria-hidden="true">&rarr;</span></span>',
+    '<span>Google Scholar <span aria-hidden="true">&rarr;</span></span>',
     '</div>'
   ].join("");
 
