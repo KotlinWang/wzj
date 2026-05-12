@@ -61,12 +61,12 @@
   revealLayer.innerHTML = [
     '<p class="profile-hero__eyebrow">遥感 / 深度学习 / 灾害解译</p>',
     '<h1 class="profile-hero__cn-name"><span>王</span><span>子</span><span>杰</span></h1>',
-    '<p class="profile-hero__summary">2025 年起于武汉大学 LIESMARS 攻读博士，导师为何维教授。研究聚焦<strong class="profile-hero__mark">遥感智能</strong>、<strong class="profile-hero__mark">深度学习方法</strong>与<strong class="profile-hero__mark">灾害解译</strong>。</p>',
+    '<p class="profile-hero__summary">2025 年起于武汉大学 <a href="https://liesmars.whu.edu.cn/" tabindex="-1">LIESMARS</a> 攻读博士，导师为<a href="https://prowdiy.github.io/weihe.github.io/" tabindex="-1">何维教授</a>。研究聚焦<strong class="profile-hero__mark">遥感智能</strong>、<strong class="profile-hero__mark">深度学习方法</strong>与<strong class="profile-hero__mark">灾害解译</strong>。</p>',
     '<div class="profile-hero__actions">',
-    '<span>查看论文 <span aria-hidden="true">&rarr;</span></span>',
-    '<span>联系我 <span aria-hidden="true">&rarr;</span></span>',
-    '<span>GitHub <span aria-hidden="true">&rarr;</span></span>',
-    '<span>Google Scholar <span aria-hidden="true">&rarr;</span></span>',
+    '<a href="#publications" target="_self" tabindex="-1">查看论文 <span aria-hidden="true">&rarr;</span></a>',
+    '<a href="mailto:Lebron.wang26@gmail.com" tabindex="-1">联系我 <span aria-hidden="true">&rarr;</span></a>',
+    '<a href="https://github.com/KotlinWang" target="_blank" rel="noopener" tabindex="-1">GitHub <span aria-hidden="true">&rarr;</span></a>',
+    '<a href="https://scholar.google.com/citations?user=S7yHOaYAAAAJ" target="_blank" rel="noopener" tabindex="-1">Google Scholar <span aria-hidden="true">&rarr;</span></a>',
     '</div>'
   ].join("");
 
@@ -180,6 +180,21 @@
     }
   };
 
+  var followLink = function(link) {
+    var href = link.getAttribute("href");
+    var target = link.getAttribute("target");
+
+    if (!href) {
+      return;
+    }
+
+    if (target === "_self" || href.charAt(0) === "#" || link.protocol === "mailto:") {
+      window.location.href = link.href;
+      return;
+    }
+
+    window.open(link.href, target || "_blank", "noopener");
+  };
   var updateTarget = function(event) {
     if (!maskRect) {
       measure();
@@ -225,6 +240,17 @@
   hero.addEventListener("pointerleave", function() {
     hideSpotlight();
   });
+  heroInner.addEventListener("click", function(event) {
+    var actionLink = event.target.closest(".profile-hero__actions a");
+
+    if (!actionLink) {
+      return;
+    }
+
+    event.preventDefault();
+    event.stopPropagation();
+    followLink(actionLink);
+  }, true);
   window.addEventListener("scroll", function() {
     hideSpotlight();
     maskRect = null;

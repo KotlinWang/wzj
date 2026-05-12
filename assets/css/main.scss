@@ -331,6 +331,7 @@ h1:before, .anchor:before {
         .profile-hero__summary,
         .profile-hero__summary a,
         .profile-hero__actions > span,
+        .profile-hero__actions > a,
         .profile-hero__meta dt,
         .profile-hero__meta dd,
         .focus-grid span,
@@ -446,6 +447,8 @@ h1:before, .anchor:before {
 }
 
 .profile-hero__actions {
+    position: relative;
+    z-index: 7;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem 2rem;
@@ -461,6 +464,13 @@ h1:before, .anchor:before {
         font-weight: 800;
         text-decoration: none;
         border-bottom: 1px solid currentColor;
+    }
+}
+
+@media (pointer: fine) {
+    .profile-hero__actions > a {
+        color: #ffffff;
+        mix-blend-mode: difference;
     }
 }
 
