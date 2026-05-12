@@ -132,10 +132,10 @@
   };
 
   var renderSpotlight = function() {
-    leadX += (targetX - leadX) * 0.74;
-    leadY += (targetY - leadY) * 0.74;
-    trailX += (leadX - trailX) * 0.16;
-    trailY += (leadY - trailY) * 0.16;
+    leadX = targetX;
+    leadY = targetY;
+    trailX += (targetX - trailX) * 0.16;
+    trailY += (targetY - trailY) * 0.16;
 
     var left = leadX - spotlightSize / 2;
     var top = leadY - spotlightSize / 2;
@@ -179,6 +179,10 @@
       hasPointer = true;
       positionCircle(trail, trailX, trailY);
       positionCircle(spotlight, leadX, leadY);
+    } else {
+      leadX = targetX;
+      leadY = targetY;
+      positionCircle(spotlight, leadX, leadY);
     }
 
     mask.classList.add("is-visible");
@@ -196,5 +200,7 @@
   });
   window.addEventListener("scroll", function() {
     hideSpotlight();
+    maskRect = null;
+    cardsRect = null;
   }, { passive: true });
 }());
