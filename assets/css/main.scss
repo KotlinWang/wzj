@@ -472,11 +472,9 @@ h1:before, .anchor:before {
     }
 }
 
-@media (pointer: fine) {
-    .profile-hero__actions > a {
-        color: #ffffff;
-        mix-blend-mode: difference;
-    }
+.profile-hero__actions > a.is-spotlight-covered {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
 }
 
 .profile-hero__meta {

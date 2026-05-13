@@ -83,9 +83,13 @@
   var hasPointer = false;
   var animationFrame = null;
   var revealName = revealLayer.querySelector(".profile-hero__cn-name");
+  var actionLinks = heroInner.querySelectorAll(".profile-hero__actions a");
 
   var hideSpotlight = function() {
     mask.classList.remove("is-visible");
+    actionLinks.forEach(function(link) {
+      link.classList.remove("is-spotlight-covered");
+    });
     hasPointer = false;
   };
 
@@ -174,6 +178,21 @@
     }
   };
 
+  var updateActionLinkContrast = function(event) {
+    var radius = spotlightSize / 2;
+
+    actionLinks.forEach(function(link) {
+      var rect = link.getBoundingClientRect();
+      var closestX = Math.max(rect.left, Math.min(event.clientX, rect.right));
+      var closestY = Math.max(rect.top, Math.min(event.clientY, rect.bottom));
+      var distanceX = event.clientX - closestX;
+      var distanceY = event.clientY - closestY;
+      var isCovered = distanceX * distanceX + distanceY * distanceY <= radius * radius;
+
+      link.classList.toggle("is-spotlight-covered", isCovered);
+    });
+  };
+
   var followLink = function(link) {
     var href = link.getAttribute("href");
     var target = link.getAttribute("target");
@@ -222,6 +241,7 @@
     }
 
     mask.classList.add("is-visible");
+    updateActionLinkContrast(event);
     startAnimation();
   };
 
