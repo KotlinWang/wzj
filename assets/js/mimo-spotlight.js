@@ -59,9 +59,9 @@
 
   revealLayer.className = "profile-hero__inner profile-hero__inner--reveal";
   revealLayer.innerHTML = [
-    '<p class="profile-hero__eyebrow">遥感 / 深度学习 / 灾害解译</p>',
+    '<p class="profile-hero__eyebrow">Remote Sensing / Deep Learning / Disaster Interpretation</p>',
     '<h1 class="profile-hero__cn-name"><span>王</span><span>子</span><span>杰</span></h1>',
-    '<p class="profile-hero__summary">2025 年起于武汉大学 <span class="profile-hero__reveal-strong">LIESMARS</span> 攻读博士，导师为<span class="profile-hero__reveal-strong">何维教授</span>。研究聚焦<strong class="profile-hero__mark">遥感智能</strong>、<strong class="profile-hero__mark">深度学习方法</strong>与<strong class="profile-hero__mark">灾害解译</strong>。</p>'
+    '<p class="profile-hero__summary">2025 年起于武汉大学 <span class="profile-hero__reveal-strong">LIESMARS</span> 攻读摄影测量与遥感博士，导师为<span class="profile-hero__reveal-strong">何维教授</span>。研究聚焦<strong class="profile-hero__mark">遥感智能</strong>、<strong class="profile-hero__mark">深度学习方法</strong>与<strong class="profile-hero__mark">灾害解译</strong>，面向多源遥感数据、复杂地表场景和灾害应急应用开展智能解译研究。</p>'
   ].join("");
 
   stage.appendChild(pattern);
