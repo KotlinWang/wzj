@@ -329,9 +329,7 @@ h1:before, .anchor:before {
         .profile-hero__eyebrow,
         h1,
         .profile-hero__summary,
-        .profile-hero__summary a,
-        .profile-hero__actions > span,
-        .profile-hero__actions > a,
+        .profile-hero__reveal-strong,
         .profile-hero__meta dt,
         .profile-hero__meta dd,
         .focus-grid span,
@@ -343,6 +341,13 @@ h1:before, .anchor:before {
 
         .profile-hero__mark {
             color: var(--mimo-accent);
+        }
+
+        .profile-hero__reveal-strong {
+            font-weight: 900;
+            text-decoration: underline;
+            text-decoration-thickness: 0.08em;
+            text-underline-offset: 0.2em;
         }
 
         .profile-hero__summary,
