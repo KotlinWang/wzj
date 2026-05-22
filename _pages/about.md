@@ -171,7 +171,7 @@ redirect_from:
         <h2 id="talks-title">Invited Talks</h2>
         <div class="feature-card__entry">
           <time>2026.05</time>
-          <p>Invited oral presentation at <strong>AIRS2026</strong>. Topic: <strong>从及时可靠到开放通用：面向灾后损坏建筑物评估的探索</strong>.</p>
+          <p>从及时可靠到开放通用：面向灾后损坏建筑物评估的探索。 <strong>AIRS2026</strong>.</p>
         </div>
         <div class="feature-card__entry">
           <time>2021.04</time>
