@@ -169,8 +169,14 @@ redirect_from:
       <article class="feature-card" id="invited-talks" aria-labelledby="talks-title">
         <span class="feature-card__index">04</span>
         <h2 id="talks-title">Invited Talks</h2>
-        <time>2021.04</time>
-        <p>Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite. <strong>EGU21</strong>.</p>
+        <div class="feature-card__entry">
+          <time>2026.05</time>
+          <p>Invited oral presentation at <strong>AIRS2026</strong>. Topic: <strong>从及时可靠到开放通用：面向灾后损坏建筑物评估的探索</strong>.</p>
+        </div>
+        <div class="feature-card__entry">
+          <time>2021.04</time>
+          <p>Automatic Recognition of the Lighting Whistler waves from the Wave Data of SCM Boarded on ZH-1 satellite. <strong>EGU21</strong>.</p>
+        </div>
       </article>
     </div>
   </section>

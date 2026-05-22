@@ -750,6 +750,17 @@ h1:before, .anchor:before {
         font-size: 1.05rem;
         line-height: 1.5;
     }
+
+    .feature-card__entry + .feature-card__entry {
+        margin-top: 1.3rem;
+        padding-top: 1.2rem;
+        border-top: 1px solid var(--mimo-soft-line);
+    }
+
+    &:hover .feature-card__entry + .feature-card__entry,
+    &:focus-within .feature-card__entry + .feature-card__entry {
+        border-top-color: rgba(255, 255, 255, 0.28);
+    }
 }
 
 .mimo-profile-home .paper-box {
