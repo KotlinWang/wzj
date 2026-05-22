@@ -171,7 +171,7 @@ redirect_from:
         <h2 id="talks-title">Invited Talks</h2>
         <div class="feature-card__entry">
           <time>2026.05</time>
-          <p>从及时可靠到开放通用：面向灾后损坏建筑物评估的探索。 <strong>AIRS2026</strong>.</p>
+          <p>From Timely and Reliable to Open and Generalizable: Explorations in Post-Disaster Damaged Building Assessment. <strong>AIRS2026</strong>.</p>
         </div>
         <div class="feature-card__entry">
           <time>2021.04</time>
