@@ -843,6 +843,20 @@ h1:before, .anchor:before {
         font-weight: 900;
     }
 
+    .paper-highlight {
+        display: inline-flex;
+        align-items: center;
+        min-height: 1.45rem;
+        padding: 0 0.34rem;
+        color: #ffffff;
+        background: var(--mimo-accent);
+        border-radius: 4px;
+        font-size: 0.85em;
+        font-weight: 900;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+
     .paper-venue {
         color: var(--mimo-secondary);
         font-weight: 900;

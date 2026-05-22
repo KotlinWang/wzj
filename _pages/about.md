@@ -54,6 +54,10 @@ redirect_from:
     </div>
     <ol class="news-list">
       <li>
+        <time>May 2026</time>
+        <a href="https://doi.org/10.1016/j.isprsjprs.2025.01.017">UrbanSSF was selected as an <em>ESI Highly Cited Paper</em>.</a>
+      </li>
+      <li>
         <time>Feb. 2026</time>
         <a href="https://www.ygxb.ac.cn/zh/article/doi/10.11834/jrs.20265510/">Review accepted by <em>Journal of Remote Sensing</em>.</a>
       </li>
@@ -113,6 +117,7 @@ redirect_from:
 
 - <strong class="paper-name">Zijie Wang</strong>, Jizheng Yi, Aibin Chen, Lijiang Chen, Hui Lin, Kai Xu
 - <em class="paper-venue">ISPRS Journal of Photogrammetry and Remote Sensing</em>, 2025
+- <strong class="paper-highlight">ESI Highly Cited Paper</strong>
 - [[Code]](https://github.com/KotlinWang/UrbanSSF) [[Paper]](https://doi.org/10.1016/j.isprsjprs.2025.01.017)
 
 </div>
