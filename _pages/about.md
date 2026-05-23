@@ -113,11 +113,10 @@ redirect_from:
     <div class="paper-box"><div class="paper-box-image"><div><div class="badge">ISPRS</div><img src="images/urbanssf.gif" alt="UrbanSSF paper preview"></div></div>
     <div class="paper-box-text" markdown="1">
 
-### Accurate semantic segmentation of very high-resolution remote sensing images considering feature state sequences: From benchmark datasets to urban applications
+### <span class="paper-trophy" aria-label="ESI Highly Cited Paper" title="ESI Highly Cited Paper">&#127942;</span> Accurate semantic segmentation of very high-resolution remote sensing images considering feature state sequences: From benchmark datasets to urban applications
 
 - <strong class="paper-name">Zijie Wang</strong>, Jizheng Yi, Aibin Chen, Lijiang Chen, Hui Lin, Kai Xu
 - <em class="paper-venue">ISPRS Journal of Photogrammetry and Remote Sensing</em>, 2025
-- <strong class="paper-highlight">ESI Highly Cited Paper</strong>
 - [[Code]](https://github.com/KotlinWang/UrbanSSF) [[Paper]](https://doi.org/10.1016/j.isprsjprs.2025.01.017)
 
 </div>
