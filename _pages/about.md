@@ -162,8 +162,14 @@ redirect_from:
       <article class="feature-card" id="honors-and-awards" aria-labelledby="honors-title">
         <span class="feature-card__index">03</span>
         <h2 id="honors-title">Honors and Awards</h2>
-        <time>2024.10</time>
-        <p>The 2024 National Scholarship for Graduate Student</p>
+        <div class="feature-card__entry">
+          <time>2026.06</time>
+          <p>Second Place in the <strong>BRIGHT Challenge in MONTI 2026</strong>: Advancing All-Weather Building Damage Mapping to Instance-Level. <strong>CVPR 2026 Workshop on Monitoring the World Through an Imperfect Lens</strong>.</p>
+        </div>
+        <div class="feature-card__entry">
+          <time>2024.10</time>
+          <p>The 2024 National Scholarship for Graduate Student</p>
+        </div>
       </article>
       <article class="feature-card" id="invited-talks" aria-labelledby="talks-title">
         <span class="feature-card__index">04</span>
