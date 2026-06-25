@@ -386,7 +386,6 @@ h1:before, .anchor:before {
     padding: 5rem 1.25rem 1.25rem;
     border-bottom: 0;
     overflow: hidden;
-    background: linear-gradient(168deg, var(--mimo-bg) 0%, rgba(255, 103, 1, 0.03) 50%, var(--mimo-bg) 100%);
 }
 
 .profile-hero__pattern {
@@ -454,7 +453,7 @@ h1:before, .anchor:before {
 
 .profile-hero__actions {
     position: relative;
-    z-index: 5;
+    z-index: 7;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem 2rem;
@@ -509,7 +508,7 @@ h1:before, .anchor:before {
 .profile-hero__cards {
     position: relative;
     margin-top: 3.4rem;
-    z-index: 3;
+    z-index: 6;
 }
 
 .profile-hero + .anchor + .mimo-section {
@@ -517,37 +516,36 @@ h1:before, .anchor:before {
 }
 
 .news-section {
-    padding-bottom: 1rem;
+    padding-bottom: 1.35rem;
 }
 
 .mimo-section {
     max-width: 1180px;
     margin: 0 auto;
-    padding: 2.8rem 1.25rem;
-    border-top: 1px solid var(--mimo-soft-line);
+    padding: 3.4rem 1.25rem;
+    border-top: 1px solid var(--mimo-line);
     border-bottom: 0;
 }
 
 .section-heading-block {
-    display: flex;
-    align-items: baseline;
-    gap: 1.2rem;
-    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 4rem minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+    margin-bottom: 2rem;
 
     > span {
         color: var(--mimo-muted);
         font-size: 0.86rem;
         font-weight: 900;
-        flex-shrink: 0;
     }
 
     h2 {
         margin: 0;
         color: var(--mimo-ink);
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         font-weight: 900;
         line-height: 1;
-        letter-spacing: -0.02em;
     }
 }
 
@@ -571,13 +569,11 @@ h1:before, .anchor:before {
     background: var(--mimo-surface);
 
     article {
-        min-height: 12rem;
-        padding: 1.4rem;
+        min-height: 13.8rem;
+        padding: 1.55rem;
         border-right: 1px solid var(--mimo-line);
         border-bottom: 1px solid var(--mimo-line);
-        transition: background 0.25s cubic-bezier(0.22, 1, 0.36, 1),
-                    color 0.25s cubic-bezier(0.22, 1, 0.36, 1),
-                    border-color 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+        transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
     }
 
     article:hover,
@@ -630,14 +626,14 @@ h1:before, .anchor:before {
     li {
         display: grid;
         grid-template-columns: minmax(0, 1fr);
-        gap: 0.2rem;
-        padding: 0.55rem 0;
+        gap: 0.6rem;
+        padding: 1rem 0;
         border-bottom: 1px solid var(--mimo-soft-line);
         transition: background 0.18s ease, transform 0.18s ease, padding-left 0.18s ease;
     }
 
     li:first-child {
-        padding-top: 0.15rem;
+        padding-top: 0.3rem;
     }
 
     li:hover {
@@ -651,13 +647,13 @@ h1:before, .anchor:before {
 
     time {
         color: #ff6a3a;
-        font-size: 0.82rem;
+        font-size: 0.9rem;
         font-weight: 800;
     }
 
     a {
         color: var(--mimo-ink);
-        font-size: 0.95rem;
+        font-size: 1rem;
         font-weight: 750;
         line-height: 1.35;
         text-decoration: none;
@@ -706,15 +702,13 @@ h1:before, .anchor:before {
 }
 
 .feature-card {
-    min-height: 16rem;
+    min-height: 18rem;
     padding: 1.55rem;
     border-right: 1px solid var(--mimo-line);
     border-bottom: 1px solid var(--mimo-line);
     background: var(--mimo-surface);
     scroll-margin-top: 5rem;
-    transition: background 0.25s cubic-bezier(0.22, 1, 0.36, 1),
-                color 0.25s cubic-bezier(0.22, 1, 0.36, 1),
-                border-color 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+    transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
 
     &:hover,
     &:focus-within {
@@ -995,13 +989,13 @@ h1:before, .anchor:before {
     }
 
     .news-list li {
-        grid-template-columns: 7rem minmax(0, 1fr);
+        grid-template-columns: 8.5rem minmax(0, 1fr);
         align-items: baseline;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .news-list a {
-        font-size: 1rem;
+        font-size: 1.12rem;
     }
 
     .compact-list article {
@@ -1033,8 +1027,10 @@ h1:before, .anchor:before {
     }
 
     .section-heading-block {
+        grid-template-columns: 8rem minmax(0, 1fr);
+
         h2 {
-            font-size: 3rem;
+            font-size: 3.6rem;
         }
     }
 
@@ -1183,79 +1179,5 @@ h1:before, .anchor:before {
 
     .mimo-profile-home .masthead__menu-item:not(.masthead__menu-home-item) {
         display: none !important;
-    }
-}
-
-/* ==========================================================================
-   Scroll reveal animations
-   ========================================================================== */
-
-[data-reveal] {
-    opacity: 0;
-    transform: translateY(2rem);
-    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
-                transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-[data-reveal].is-visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Stagger children for paper-box and news items */
-.publications-section.is-visible .paper-box {
-    opacity: 0;
-    transform: translateY(1.2rem);
-    animation: reveal-up 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-.publications-section.is-visible .paper-box:nth-child(1) { animation-delay: 0.05s; }
-.publications-section.is-visible .paper-box:nth-child(2) { animation-delay: 0.12s; }
-.publications-section.is-visible .paper-box:nth-child(3) { animation-delay: 0.19s; }
-.publications-section.is-visible .paper-box:nth-child(4) { animation-delay: 0.26s; }
-.publications-section.is-visible .paper-box:nth-child(5) { animation-delay: 0.33s; }
-.publications-section.is-visible .paper-box:nth-child(6) { animation-delay: 0.40s; }
-
-.news-section.is-visible .news-list li {
-    opacity: 0;
-    animation: reveal-up 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
-}
-
-.news-section.is-visible .news-list li:nth-child(1) { animation-delay: 0.03s; }
-.news-section.is-visible .news-list li:nth-child(2) { animation-delay: 0.08s; }
-.news-section.is-visible .news-list li:nth-child(3) { animation-delay: 0.13s; }
-.news-section.is-visible .news-list li:nth-child(4) { animation-delay: 0.18s; }
-.news-section.is-visible .news-list li:nth-child(5) { animation-delay: 0.23s; }
-.news-section.is-visible .news-list li:nth-child(6) { animation-delay: 0.28s; }
-.news-section.is-visible .news-list li:nth-child(7) { animation-delay: 0.33s; }
-
-@keyframes reveal-up {
-    from {
-        opacity: 0;
-        transform: translateY(1rem);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Hero entrance animation */
-.profile-hero__inner {
-    animation: hero-enter 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
-}
-
-.profile-hero__cards {
-    animation: hero-enter 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both;
-}
-
-@keyframes hero-enter {
-    from {
-        opacity: 0;
-        transform: translateY(2.5rem);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
     }
 }
