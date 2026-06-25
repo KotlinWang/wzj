@@ -213,11 +213,6 @@
       measure();
     }
 
-    if (isInsideCardsRect(event)) {
-      hideSpotlight();
-      return;
-    }
-
     targetX = event.clientX - maskRect.left;
     targetY = event.clientY - maskRect.top;
 
