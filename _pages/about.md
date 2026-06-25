@@ -47,15 +47,19 @@ redirect_from:
   </section>
 
   <span class="anchor" id="news"></span>
-  <section class="mimo-section news-section" aria-labelledby="news-title">
+  <section class="mimo-section news-section" aria-labelledby="news-title" data-reveal>
     <div class="section-heading-block">
       <span>01</span>
       <h2 id="news-title">News</h2>
     </div>
     <ol class="news-list">
       <li>
+        <time>Jun. 2026</time>
+        <a>Second Place in the <em>BRIGHT Challenge, CVPR 2026 MONTI Workshop</em>.</a>
+      </li>
+      <li>
         <time>May 2026</time>
-        <a href="https://doi.org/10.1016/j.isprsjprs.2025.01.017">UrbanSSF was selected as an <em>ESI Highly Cited Paper</em>.</a>
+        <a href="https://doi.org/10.1016/j.isprsjprs.2025.01.017">UrbanSSF selected as <em>ESI Highly Cited Paper</em>.</a>
       </li>
       <li>
         <time>Feb. 2026</time>
@@ -81,7 +85,7 @@ redirect_from:
   </section>
 
   <span class="anchor" id="publications"></span>
-  <section class="mimo-section publications-section" aria-labelledby="publications-title">
+  <section class="mimo-section publications-section" aria-labelledby="publications-title" data-reveal>
     <div class="section-heading-block">
       <span>02</span>
       <h2 id="publications-title">Publications</h2>
@@ -157,7 +161,7 @@ redirect_from:
     </div>
   </section>
 
-  <section class="mimo-section feature-card-section" aria-label="Honors and invited talks">
+  <section class="mimo-section feature-card-section" aria-label="Honors and invited talks" data-reveal>
     <div class="feature-card-grid">
       <article class="feature-card" id="honors-and-awards" aria-labelledby="honors-title">
         <span class="feature-card__index">03</span>
@@ -187,7 +191,7 @@ redirect_from:
   </section>
 
   <span class="anchor" id="educations"></span>
-  <section class="mimo-section mimo-section--split education-section" aria-labelledby="education-title">
+  <section class="mimo-section mimo-section--split education-section" aria-labelledby="education-title" data-reveal>
     <div class="section-heading-block">
       <span>05</span>
       <h2 id="education-title">Educations</h2>
