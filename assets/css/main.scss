@@ -529,17 +529,16 @@ h1:before, .anchor:before {
 }
 
 .section-heading-block {
-    display: grid;
-    grid-template-columns: 4rem minmax(0, 1fr);
-    gap: 1rem;
-    align-items: start;
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
     margin-bottom: 1.5rem;
 
     > span {
         color: var(--mimo-muted);
         font-size: 0.86rem;
         font-weight: 900;
-        padding-top: 0.3rem;
+        flex-shrink: 0;
     }
 
     h2 {
@@ -1034,8 +1033,6 @@ h1:before, .anchor:before {
     }
 
     .section-heading-block {
-        grid-template-columns: 8rem minmax(0, 1fr);
-
         h2 {
             font-size: 3rem;
         }
