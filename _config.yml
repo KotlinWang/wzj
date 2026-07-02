@@ -7,9 +7,8 @@
 
 # Site Settings
 title                    : "Zijie Wang (王子杰)"
-description              : "PhD student in Remote Sensing"
 name                     : "Zijie Wang"
-description              : "Personal Website"
+description              : "PhD student in Photogrammetry and Remote Sensing at Wuhan University"
 url                     : "https://kotlinwang.github.io/wzj/"
 repository               : "KotlinWang/wzj"
 google_scholar_stats_use_cdn : true
@@ -30,7 +29,7 @@ author:
   location         : "Wuhan, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=SCHOLAR_ID&user=S7yHOaYAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=S7yHOaYAAAAJ"
   email            : "Lebron.wang26@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :

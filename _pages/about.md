@@ -55,7 +55,7 @@ redirect_from:
     <ol class="news-list">
       <li>
         <time>Jun. 2026</time>
-        <a>Second Place in the <em>BRIGHT Challenge, CVPR 2026 MONTI Workshop</em>.</a>
+        <span>Second Place in the <em>BRIGHT Challenge, CVPR 2026 MONTI Workshop</em>.</span>
       </li>
       <li>
         <time>May 2026</time>

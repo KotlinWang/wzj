@@ -651,10 +651,11 @@ h1:before, .anchor:before {
         font-weight: 800;
     }
 
-    a {
+    a,
+    li > span {
         color: var(--mimo-ink);
-        font-size: 1rem;
-        font-weight: 750;
+        font-size: 0.95rem;
+        font-weight: 700;
         line-height: 1.35;
         text-decoration: none;
         transition: color 0.18s ease;
@@ -663,10 +664,11 @@ h1:before, .anchor:before {
     em {
         color: var(--mimo-secondary);
         font-style: italic;
-        font-weight: 850;
+        font-weight: 900;
     }
 
-    li:hover a {
+    li:hover a,
+    li:hover > span {
         color: var(--mimo-ink);
     }
 
