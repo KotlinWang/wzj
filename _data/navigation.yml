@@ -1,19 +1,16 @@
 # main links links
 main:
-  - title: "About"
-    url: "/wzj/#about-me"
+  - title: "Overview"
+    url: "#overview"
 
-  - title: "News"
-    url: "/wzj/#news"
+  - title: "Research"
+    url: "#research"
 
   - title: "Publications"
-    url: "/wzj/#publications"
+    url: "#publications"
 
-  - title: "Awards"
-    url: "/wzj/#honors-and-awards"
+  - title: "Trajectory"
+    url: "#trajectory"
 
-  - title: "Talks"
-    url: "/wzj/#invited-talks"
-
-  - title: "Education"
-    url: "/wzj/#educations"
+  - title: "Recognition"
+    url: "#recognition"

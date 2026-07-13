@@ -6,10 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zijie Wang (王子杰)"
+title                    : "Zijie Wang"
 name                     : "Zijie Wang"
-description              : "PhD student in Photogrammetry and Remote Sensing at Wuhan University"
-url                     : "https://kotlinwang.github.io/wzj/"
+description              : "PhD researcher in disaster remote sensing and Earth observation intelligence at Wuhan University"
+url                      : "https://kotlinwang.github.io"
+baseurl                  : "/wzj"
 repository               : "KotlinWang/wzj"
 google_scholar_stats_use_cdn : true
 
@@ -68,6 +69,8 @@ include:
   - files
 exclude:
   - docs
+  - design-previews
+  - react-previews
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"

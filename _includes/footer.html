@@ -1,4 +1,13 @@
-<!-- 页脚信息 -->
+{% if page.body_class contains 'research-observatory' %}
+<footer class="site-footer">
+  <div class="shell">
+    <span>ZIJIE WANG · DISASTER INTELLIGENCE</span>
+    <span>WUHAN · CHINA · {{ site.time | date: '%Y' }}</span>
+  </div>
+</footer>
+{% else %}
+<!-- Footer information -->
 <footer class="site-footer" style="text-align: center; padding: 20px; font-size: 0.8em; color: #666;">
   <p>Updated at {{ site.time | date: '%Y-%m-%d' }} | Thanks <a href="https://github.com/RayeRen/acad-homepage.github.io" target="_blank">Raye Ren</a> for this amazing template</p>
-</footer> 
+</footer>
+{% endif %}

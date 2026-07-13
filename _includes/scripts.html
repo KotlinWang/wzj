@@ -1,3 +1,6 @@
+{% if page.body_class contains 'research-observatory' %}
+<script src="{{ '/assets/js/research-observatory.js' | relative_url }}"></script>
+{% else %}
 <script src="assets/js/main.min.js"></script>
 <script src="assets/js/mimo-spotlight.js"></script>
 
@@ -19,6 +22,7 @@
   for (var j = 0; j < els.length; j++) observer.observe(els[j]);
 })();
 </script>
+{% include fetch_google_scholar_stats.html %}
+{% endif %}
 
 {% include analytics.html %}
-{% include fetch_google_scholar_stats.html %}

@@ -1,3 +1,28 @@
+{% if page.body_class contains 'research-observatory' %}
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <a class="brand" href="#overview" aria-label="Back to overview">
+    <span class="brand-mark" aria-hidden="true"><img src="{{ '/assets/media/identity/research-brand-mark.png' | relative_url }}" alt="" width="512" height="512"></span>
+    <span class="brand-copy"><strong>Zijie Wang</strong><small>EARTH OBSERVATION · DISASTER AI</small></span>
+  </a>
+  <nav class="nav-links" id="observatory-nav" aria-label="Primary navigation">
+    {% for link in site.data.navigation.main %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+    <div class="mobile-socials">
+      <a href="https://github.com/KotlinWang" target="_blank" rel="noreferrer">GitHub <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+      <a href="https://scholar.google.com/citations?user=S7yHOaYAAAAJ" target="_blank" rel="noreferrer">Scholar <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+    </div>
+  </nav>
+  <a class="header-contact" href="mailto:Lebron.wang26@gmail.com" aria-label="Email Zijie Wang">
+    <i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span>
+  </a>
+  <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="observatory-nav">
+    <i class="fas fa-bars" aria-hidden="true"></i>
+  </button>
+</header>
+{% else %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -19,3 +44,4 @@
     </div>
   </div>
 </div>
+{% endif %}

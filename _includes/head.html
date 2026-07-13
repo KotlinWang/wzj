@@ -11,6 +11,10 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% if page.body_class contains 'research-observatory' %}
+<link rel="stylesheet" href="{{ '/assets/css/research-observatory.css' | relative_url }}">
+<meta name="theme-color" content="#f3f4f0">
+{% endif %}
 
 <meta http-equiv="cleartype" content="on">
