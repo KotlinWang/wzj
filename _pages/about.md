@@ -118,9 +118,9 @@ redirect_from:
       <article class="featured-project signal-surface" data-edge data-reveal>
         <div class="featured-media featured-media--figure">
           <img src="{{ '/assets/media/projects/jrs-full.jpg' | relative_url }}" alt="Annual publication trend chart from the AI and remote sensing review" width="1400" height="1151" loading="lazy" decoding="async">
-          <span>FEATURED / SYNTHESIS</span>
         </div>
         <div class="featured-copy">
+          <span class="featured-label">FEATURED / SYNTHESIS</span>
           <p class="project-venue">JRS 2026</p>
           <h3>AI and Remote Sensing: A Review</h3>
           <p class="project-title">A review of AI and remote sensing research: Current status and future prospects</p>
@@ -134,7 +134,7 @@ redirect_from:
           <div class="project-order">01</div>
           <div class="project-meta"><strong>TIP 2025</strong><span>3D VISION</span></div>
           <div class="project-copy">
-            <h3><span>Human-inspired Monocular <span class="technical-token">3D</span> Detection</span></h3>
+            <h3><span>Human-inspired Monocular 3D Detection</span></h3>
             <p class="project-title">MoVis: When 3D Object Detection is Like Human Monocular Vision</p>
             <p>A human-inspired monocular 3D framework that couples visual representation, depth cues, and spatial reasoning.</p>
           </div>
@@ -168,7 +168,7 @@ redirect_from:
           </div>
         </article>
 
-        <article class="project-row signal-surface" data-edge data-reveal>
+        <article class="project-row project-row--compact signal-surface" data-edge data-reveal>
           <div class="project-order">03</div>
           <div class="project-meta"><strong>RSE 2024</strong><span>MONITORING</span></div>
           <div class="project-copy">
