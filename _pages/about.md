@@ -142,14 +142,14 @@ redirect_from:
             <a href="https://github.com/KotlinWang/MoVis" target="_blank" rel="noreferrer">Code<i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             <a href="https://ieeexplore.ieee.org/document/10916602/" target="_blank" rel="noreferrer">Paper<i class="fas fa-arrow-right" aria-hidden="true"></i></a>
           </div>
-          <div class="project-row-media project-row-media--video">
+          <div class="project-row-media project-row-media--video" style="--video-ratio: 14175 / 4352">
             <video class="project-video" poster="{{ '/assets/media/projects/movis.jpg' | relative_url }}" autoplay muted loop playsinline controls preload="none" aria-label="Animated qualitative results from MoVis">
               <source data-src="{{ '/assets/media/projects/movis.mp4' | relative_url }}" type="video/mp4">
             </video>
           </div>
         </article>
 
-        <article class="project-row signal-surface" data-edge data-reveal>
+        <article class="project-row project-row--separated signal-surface" data-edge data-reveal>
           <div class="project-order">02</div>
           <div class="project-meta"><strong>ISPRS JPRS 2025</strong><span>SEGMENTATION</span></div>
           <div class="project-copy">
@@ -161,7 +161,7 @@ redirect_from:
             <a href="https://github.com/KotlinWang/UrbanSSF" target="_blank" rel="noreferrer">Code<i class="fas fa-arrow-right" aria-hidden="true"></i></a>
             <a href="https://doi.org/10.1016/j.isprsjprs.2025.01.017" target="_blank" rel="noreferrer">Paper<i class="fas fa-arrow-right" aria-hidden="true"></i></a>
           </div>
-          <div class="project-row-media project-row-media--video">
+          <div class="project-row-media project-row-media--video" style="--video-ratio: 614 / 308">
             <video class="project-video" poster="{{ '/assets/media/projects/urbanssf.jpg' | relative_url }}" autoplay muted loop playsinline controls preload="none" aria-label="Animated qualitative results from UrbanSSF">
               <source data-src="{{ '/assets/media/projects/urbanssf.mp4' | relative_url }}" type="video/mp4">
             </video>
@@ -186,7 +186,7 @@ redirect_from:
     </div>
   </section>
 
-  <section class="section trajectory-section" id="trajectory" aria-labelledby="trajectory-title">
+  <section class="section trajectory-section" id="trajectory" aria-labelledby="trajectory-title" data-reveal-repeat>
     <div class="shell">
       <header class="section-heading section-heading--split" data-reveal>
         <div>
@@ -221,7 +221,7 @@ redirect_from:
     </div>
   </section>
 
-  <section class="section recognition-section" id="recognition" aria-labelledby="recognition-title">
+  <section class="section recognition-section" id="recognition" aria-labelledby="recognition-title" data-reveal-repeat>
     <div class="shell">
       <header class="recognition-heading" data-reveal>
         <p class="section-kicker">Recognition</p>
@@ -245,7 +245,7 @@ redirect_from:
     </div>
   </section>
 
-  <section class="contact-section" id="contact" aria-labelledby="contact-title">
+  <section class="contact-section" id="contact" aria-labelledby="contact-title" data-reveal-repeat>
     <div class="shell contact-layout" data-reveal>
       <div>
         <p class="section-kicker">Collaboration</p>

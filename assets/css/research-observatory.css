@@ -1193,6 +1193,11 @@ body.mimo-profile-home.research-observatory .hero-shell--translated .button--dar
   transition: background-color 180ms ease, box-shadow 180ms ease;
 }
 
+.project-row--separated {
+  margin-top: 16px;
+  border-top: 1px solid rgba(243, 244, 240, 0.18);
+}
+
 .project-row:hover,
 .project-row:focus-within {
   background: rgba(243, 244, 240, 0.025);
@@ -1323,7 +1328,11 @@ body.mimo-profile-home.research-observatory .hero-shell--translated .button--dar
   width: 100%;
   min-width: 0;
   min-height: 0;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: var(--video-ratio, 16 / 9);
+}
+
+.project-row-media--video video {
+  object-fit: cover;
 }
 
 .project-row-media--figure {
