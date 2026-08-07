@@ -995,8 +995,8 @@ body.mimo-profile-home.research-observatory .hero-shell--translated .button--dar
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  padding-top: 70px;
-  padding-bottom: 76px;
+  padding-top: 40px;
+  padding-bottom: 72px;
   color: var(--ink);
   background:
     linear-gradient(rgba(11, 112, 101, 0.05) 1px, transparent 1px),
@@ -1035,27 +1035,38 @@ body.mimo-profile-home.research-observatory .hero-shell--translated .button--dar
 }
 
 .publications-section .section-heading {
-  margin-bottom: 34px;
+  margin-bottom: 28px;
 }
 
 .section-heading--dark {
   display: grid;
-  grid-template-columns: 170px minmax(0, 1fr) minmax(280px, 0.55fr);
-  align-items: end;
-  gap: 34px;
+  grid-template-areas:
+    "kicker description"
+    "title description";
+  grid-template-columns: minmax(0, 1fr) minmax(290px, 0.52fr);
+  align-items: center;
+  column-gap: 54px;
+  row-gap: 4px;
 }
 
 .section-heading--dark .section-kicker {
-  margin: 0 0 7px;
+  grid-area: kicker;
+  align-self: end;
+  margin: 0;
   color: var(--orange);
 }
 
 .section-heading--dark h2 {
+  grid-area: title;
   color: var(--ink);
 }
 
 .section-heading--dark > p:last-child {
+  grid-area: description;
+  max-width: 36ch;
   color: #555b55;
+  font-size: 15px;
+  line-height: 1.55;
 }
 
 .featured-project {
@@ -1801,13 +1812,12 @@ body.mimo-profile-home.research-observatory .hero-shell--translated .button--dar
   }
 
   .section-heading--dark {
-    grid-template-columns: 140px minmax(0, 1fr);
-    align-items: start;
+    grid-template-columns: minmax(0, 1fr) minmax(245px, 0.48fr);
+    column-gap: 38px;
   }
 
   .section-heading--dark > p:last-child {
-    grid-column: 2;
-    max-width: 620px;
+    max-width: 34ch;
   }
 
   .section-heading h2,
@@ -2010,11 +2020,15 @@ body.mimo-profile-home.research-observatory .hero-shell--translated .button--dar
   }
 
   .section-heading--dark {
+    grid-template-areas:
+      "kicker"
+      "title"
+      "description";
     gap: 12px;
   }
 
   .section-heading--dark > p:last-child {
-    grid-column: auto;
+    max-width: 52ch;
   }
 
   .method-grid {

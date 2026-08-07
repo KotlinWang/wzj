@@ -112,7 +112,7 @@ redirect_from:
       <header class="section-heading section-heading--dark" data-reveal>
         <p class="section-kicker">Evidence &amp; Output</p>
         <h2 id="publications-title">Selected Work</h2>
-        <p>A focused selection spanning open-vocabulary change detection, AI and remote sensing synthesis, monocular 3D vision, VHR urban segmentation, and disaster-monitoring signals.</p>
+        <p>Selected research across open-vocabulary change detection, remote sensing AI, 3D vision, and disaster monitoring.</p>
       </header>
 
       <article class="featured-project signal-surface" data-edge data-reveal>
