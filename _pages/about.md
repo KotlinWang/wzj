@@ -112,7 +112,7 @@ redirect_from:
       <header class="section-heading section-heading--dark" data-reveal>
         <p class="section-kicker">Evidence &amp; Output</p>
         <h2 id="publications-title">Selected Work</h2>
-        <p>A focused selection spanning AI and remote sensing synthesis, monocular 3D vision, VHR urban segmentation, and disaster-monitoring signals.</p>
+        <p>A focused selection spanning open-vocabulary change detection, AI and remote sensing synthesis, monocular 3D vision, VHR urban segmentation, and disaster-monitoring signals.</p>
       </header>
 
       <article class="featured-project signal-surface" data-edge data-reveal>
@@ -130,8 +130,23 @@ redirect_from:
       </article>
 
       <div class="project-list">
-        <article class="project-row signal-surface" data-edge data-reveal>
+        <article class="project-row project-row--cogvis signal-surface" data-edge data-reveal>
           <div class="project-order">01</div>
+          <div class="project-meta"><strong>arXiv 2026</strong><span>OPEN-VOCABULARY CD</span></div>
+          <div class="project-copy">
+            <h3>CogVis: Open-Vocabulary Change Detection</h3>
+            <p class="project-title">Must Open-Vocabulary Change Detection Perceive the Scene Anew for Every Query?</p>
+            <p>A perception-memory-verification framework that shares category-agnostic change evidence across queries, calibrates semantic decisions, and verifies candidate regions.</p>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/KotlinWang/CogVis" target="_blank" rel="noreferrer">Code<i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+            <a href="https://arxiv.org/abs/2608.06150" target="_blank" rel="noreferrer">Paper<i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+          <div class="project-row-media project-row-media--cogvis"><img src="{{ '/assets/media/projects/cogvis.png' | relative_url }}" alt="CogVis visual identity showing open-vocabulary change detection across two Earth observation scenes" width="1600" height="640" loading="lazy" decoding="async"></div>
+        </article>
+
+        <article class="project-row signal-surface" data-edge data-reveal>
+          <div class="project-order">02</div>
           <div class="project-meta"><strong>TIP 2025</strong><span>3D VISION</span></div>
           <div class="project-copy">
             <h3><span>Human-inspired Monocular 3D Detection</span></h3>
@@ -150,7 +165,7 @@ redirect_from:
         </article>
 
         <article class="project-row project-row--separated signal-surface" data-edge data-reveal>
-          <div class="project-order">02</div>
+          <div class="project-order">03</div>
           <div class="project-meta"><strong>ISPRS JPRS 2025</strong><span>SEGMENTATION</span></div>
           <div class="project-copy">
             <h3><img class="title-trophy" src="{{ '/images/trophy.png' | relative_url }}" alt="Highly cited paper" width="40" height="40">VHR Semantic Segmentation for Urban Applications</h3>
@@ -169,7 +184,7 @@ redirect_from:
         </article>
 
         <article class="project-row project-row--compact signal-surface" data-edge data-reveal>
-          <div class="project-order">03</div>
+          <div class="project-order">04</div>
           <div class="project-meta"><strong>RSE 2024</strong><span>MONITORING</span></div>
           <div class="project-copy">
             <h3>Whistler Recognition for Disaster Monitoring</h3>
@@ -211,6 +226,7 @@ redirect_from:
 
         <div class="signal-list" data-reveal>
           <h3><i class="fas fa-broadcast-tower" aria-hidden="true"></i>Research Updates</h3>
+          <article><time>2026.08</time><div><strong>CogVis released on arXiv</strong><span>Open-vocabulary change detection with shared perception, semantic memory, and region verification</span></div></article>
           <article><time>2026.06</time><div><strong>Second Place in the BRIGHT Challenge</strong><span>CVPR 2026 MONTI Workshop</span></div></article>
           <article><time>2026.05</time><div><strong>UrbanSSF named an ESI Highly Cited Paper</strong><span>ISPRS Journal of Photogrammetry and Remote Sensing</span></div></article>
           <article><time>2026.05</time><div><strong>Invited to present at AIRS 2026</strong><span>From Timely and Reliable to Open and Generalizable: Explorations in Post-Disaster Damaged Building Assessment</span></div></article>

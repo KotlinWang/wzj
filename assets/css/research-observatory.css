@@ -1386,6 +1386,11 @@ body.mimo-profile-home.research-observatory .hero-shell--translated .button--dar
   object-fit: cover;
 }
 
+.project-row-media--cogvis {
+  aspect-ratio: 5 / 2;
+  background: #040708;
+}
+
 .project-row-media--figure {
   aspect-ratio: 1600 / 1267;
   background: var(--paper);
@@ -1467,8 +1472,11 @@ body.mimo-profile-home.research-observatory .hero-shell--translated .button--dar
   column-gap: 24px;
 }
 
-.signal-list > h3,
-.signal-list > article:last-child {
+.signal-list > h3 {
+  grid-column: 1 / -1;
+}
+
+.signal-list > article:nth-child(even):last-child {
   grid-column: 1 / -1;
 }
 
